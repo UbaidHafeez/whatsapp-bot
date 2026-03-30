@@ -29,7 +29,7 @@ jobs:
         ULTRAMSG_TOKEN: ${{ secrets.ULTRAMSG_TOKEN }}
         ULTRAMSG_INSTANCE: ${{ secrets.ULTRAMSG_INSTANCE }}
       run: |
-        python whatsapp_bot_cloud.py --now
+        python whatsapp_bot_cloud.py
 
     - name: Commit folder renames
       continue-on-error: true

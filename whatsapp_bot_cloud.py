@@ -1,8 +1,6 @@
 """
-=============================================================
-  WhatsApp Islamic Post Sender - CLOUD VERSION
-  For GitHub Actions (runs automatically at 7 PM daily)
-=============================================================
+WhatsApp Bot - Debug Version
+Shows detailed error messages
 """
 
 import os
@@ -12,189 +10,185 @@ import json
 import logging
 from datetime import datetime
 
-# ──────────────────────────────────────────────
-#  CONFIGURATION
-# ──────────────────────────────────────────────
+# Configuration
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 POSTS_FOLDER = os.path.join(BASE_DIR, "islamic_posts")
 GROUPS_FILE = os.path.join(BASE_DIR, "groups.txt")
-LOG_FILE = os.path.join(BASE_DIR, "bot_log.txt")
 DB_FILE = os.path.join(BASE_DIR, "posts_db.json")
 
-# Get credentials from environment variables (GitHub Secrets)
+# Get credentials from environment
 API_TOKEN = os.environ.get("ULTRAMSG_TOKEN", "")
 INSTANCE_ID = os.environ.get("ULTRAMSG_INSTANCE", "")
-API_ENABLED = bool(API_TOKEN and INSTANCE_ID)
 
-# UltraMsg API URL
-API_GATEWAY_URL = f"https://api.ultramsg.com/{INSTANCE_ID}/messages/image" if API_ENABLED else ""
-
-# ──────────────────────────────────────────────
-#  LOGGER SETUP
-# ──────────────────────────────────────────────
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s | %(levelname)s | %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_FILE, encoding="utf-8"),
-        logging.StreamHandler()  # Also print to console for GitHub Actions
-    ]
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
 log = logging.getLogger(__name__)
 
-
-# ══════════════════════════════════════════════
-#  1. IMAGE ENCODER
-# ══════════════════════════════════════════════
-def image_to_base64(image_path: str) -> str:
-    """Convert image file to Base64 encoded string"""
-    try:
-        with open(image_path, "rb") as image_file:
-            encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
-        log.info(f"✓ Encoded image: {os.path.basename(image_path)}")
-        return encoded_string
-    except Exception as e:
-        log.error(f"✗ Failed to encode image: {e}")
-        raise
-
-
-# ══════════════════════════════════════════════
-#  2. POST SCANNER
-# ══════════════════════════════════════════════
-def scan_posts() -> list:
-    """Scan for valid post folders (skip sent_ folders)"""
-    if not os.path.exists(POSTS_FOLDER):
-        log.warning(f"Posts folder not found: {POSTS_FOLDER}")
+def load_groups():
+    """Load groups from file"""
+    if not os.path.exists(GROUPS_FILE):
+        log.error(f"❌ groups.txt not found!")
         return []
+    
+    with open(GROUPS_FILE, "r", encoding="utf-8") as f:
+        groups = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    
+    log.info(f"📱 Loaded {len(groups)} group(s): {groups}")
+    return groups
 
+def scan_posts():
+    """Scan for unsent posts"""
+    if not os.path.exists(POSTS_FOLDER):
+        log.error(f"❌ Posts folder not found!")
+        return []
+    
     posts = []
     for folder in sorted(os.listdir(POSTS_FOLDER)):
-        # Skip folders that start with "sent_"
         if folder.startswith("sent_"):
             continue
-            
+        
         folder_path = os.path.join(POSTS_FOLDER, folder)
         if not os.path.isdir(folder_path):
             continue
-
+        
         urdu_img = os.path.join(folder_path, "urdu.jpg")
         eng_img = os.path.join(folder_path, "eng.jpg")
-
+        
         if os.path.exists(urdu_img) and os.path.exists(eng_img):
             posts.append(folder)
-            log.info(f"✓ Valid post: {folder}")
+            log.info(f"✅ Found post: {folder}")
         else:
-            log.warning(f"Skipping '{folder}' — missing urdu.jpg or eng.jpg")
+            log.warning(f"⚠️ Skipping '{folder}' — missing images")
     
-    log.info(f"Detected {len(posts)} valid post(s): {posts}")
+    log.info(f"📦 Detected {len(posts)} post(s): {posts}")
     return posts
 
-
-# ══════════════════════════════════════════════
-#  3. DATABASE MANAGER
-# ══════════════════════════════════════════════
-def load_db() -> dict:
+def load_db():
+    """Load database"""
     if not os.path.exists(DB_FILE):
         return {}
     with open(DB_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def save_db(db: dict):
-    with open(DB_FILE, "w", encoding="utf-8") as f:
-        json.dump(db, f, indent=4)
-
-def get_next_unsent_post(db: dict, available_posts: list) -> str:
-    for post in available_posts:
+def get_next_unsent_post(db, posts):
+    """Get next unsent post"""
+    for post in posts:
         if db.get(post, False) is False:
             return post
     return None
 
-def mark_post_sent(db: dict, post_name: str):
+def mark_post_sent(db, post_name):
+    """Mark post as sent"""
     db[post_name] = True
-    save_db(db)
-    log.info(f"✓ Post '{post_name}' marked as sent.")
+    with open(DB_FILE, "w", encoding="utf-8") as f:
+        json.dump(db, f, indent=4)
+    log.info(f"✅ Marked '{post_name}' as sent")
 
-
-def rename_folder_sent(post_name: str):
-    """Rename post folder to 'sent_postname' after sending"""
+def rename_folder_sent(post_name):
+    """Rename folder to sent_"""
     old_folder = os.path.join(POSTS_FOLDER, post_name)
     new_folder = os.path.join(POSTS_FOLDER, f"sent_{post_name}")
     
     try:
         if os.path.exists(old_folder):
             os.rename(old_folder, new_folder)
-            log.info(f"✓ Folder renamed: '{post_name}' → 'sent_{post_name}'")
+            log.info(f"✅ Renamed folder: {post_name} → sent_{post_name}")
     except Exception as e:
-        log.error(f"✗ Failed to rename folder: {e}")
+        log.error(f"❌ Failed to rename folder: {e}")
 
+def image_to_base64(image_path):
+    """Convert image to base64"""
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode('utf-8')
 
-# ══════════════════════════════════════════════
-#  4. GROUPS READER
-# ══════════════════════════════════════════════
-def load_groups() -> list:
-    if not os.path.exists(GROUPS_FILE):
-        log.error(f"groups.txt not found at: {GROUPS_FILE}")
-        return []
-    with open(GROUPS_FILE, "r", encoding="utf-8") as f:
-        groups = [line.strip() for line in f if line.strip() and not line.startswith('#')]
-    log.info(f"Loaded {len(groups)} group(s): {groups}")
-    return groups
-
-
-# ══════════════════════════════════════════════
-#  5. API SENDER
-# ══════════════════════════════════════════════
-def send_image_via_api(group_name: str, image_path: str, caption: str = "") -> bool:
-    """Send image to WhatsApp group via UltraMsg API"""
-    image_base64 = image_to_base64(image_path)
+def send_image(group_name, image_path, caption=""):
+    """Send image via UltraMsg API"""
     
+    log.info(f"📤 Sending to: {group_name}")
+    log.info(f"🖼️ Image: {os.path.basename(image_path)}")
+    
+    # Check file exists
+    if not os.path.exists(image_path):
+        log.error(f"❌ Image file not found: {image_path}")
+        return False
+    
+    # Check file size
+    file_size = os.path.getsize(image_path) / (1024 * 1024)  # MB
+    log.info(f"📊 Image size: {file_size:.2f} MB")
+    
+    if file_size > 5:
+        log.error(f"❌ Image too large! Must be under 5MB")
+        return False
+    
+    # Convert to base64
+    image_base64 = image_to_base64(image_path)
+    log.info(f"📝 Encoded image ({len(image_base64)} chars)")
+    
+    # API URL
     api_url = f"https://api.ultramsg.com/{INSTANCE_ID}/messages/image"
     
+    # Payload
     payload = {
         "token": API_TOKEN,
         "to": group_name,
         "image": image_base64,
         "caption": caption
     }
-
+    
+    log.info(f"🔗 API URL: {api_url}")
+    log.info(f"📮 Recipient: {group_name}")
+    
     try:
-        log.info(f"Sending to API: {group_name} - {os.path.basename(image_path)}")
-        
+        # Send request
+        log.info(f"⏳ Sending...")
         response = requests.post(api_url, data=payload, timeout=30)
+        
+        log.info(f"📡 Response Status: {response.status_code}")
+        log.info(f"📄 Response: {response.text}")
         
         if response.status_code == 200:
             result = response.json()
+            log.info(f"📋 Result: {result}")
+            
             if result.get("sent") == "true" or result.get("message") == "ok":
-                log.info(f"✓ API sent successfully to '{group_name}'")
+                log.info(f"✅ SUCCESS! Sent to {group_name}")
                 return True
             else:
-                log.error(f"✗ API error: {result}")
+                log.error(f"❌ API Error: {result}")
                 return False
         else:
-            log.error(f"✗ HTTP {response.status_code}: {response.text}")
+            log.error(f"❌ HTTP Error {response.status_code}")
+            log.error(f"📄 Response: {response.text}")
             return False
-
+            
+    except requests.exceptions.Timeout:
+        log.error(f"❌ Timeout - API took too long to respond")
+        return False
     except Exception as e:
-        log.error(f"✗ Request failed: {e}")
+        log.error(f"❌ Request failed: {e}")
         return False
 
-
-# ══════════════════════════════════════════════
-#  6. MAIN JOB
-# ══════════════════════════════════════════════
-def daily_job_api():
-    """Main job for GitHub Actions"""
+def main():
+    """Main function"""
     log.info("=" * 60)
-    log.info(f"Cloud Bot Started — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    log.info("🤖 WhatsApp Bot - Debug Version")
     log.info("=" * 60)
     
-    # Check API configuration
-    if not API_ENABLED:
-        log.error("❌ API credentials not configured!")
-        log.error("Please set ULTRAMSG_TOKEN and ULTRAMSG_INSTANCE in GitHub Secrets")
+    # Check credentials
+    if not API_TOKEN or not INSTANCE_ID:
+        log.error("❌ ERROR: API credentials not set!")
+        log.error("❌ Please add ULTRAMSG_TOKEN and ULTRAMSG_INSTANCE to GitHub Secrets")
         return
     
-    # Scan for posts
+    log.info(f"✅ API Token: {API_TOKEN[:10]}...")
+    log.info(f"✅ Instance ID: {INSTANCE_ID}")
+    
+    # Load groups
+    groups = load_groups()
+    if not groups:
+        log.error("❌ No groups found! Check groups.txt")
+        return
+    
+    # Scan posts
     posts = scan_posts()
     if not posts:
         log.info("✅ No new posts to send")
@@ -206,67 +200,82 @@ def daily_job_api():
     # Get next unsent post
     post_name = get_next_unsent_post(db, posts)
     if not post_name:
-        log.info("✅ All posts sent! Add new folders to continue.")
+        log.info("✅ All posts already sent!")
         return
     
-    log.info(f"Selected post: '{post_name}'")
+    log.info(f"📮 Selected post: {post_name}")
     
-    # Load groups
-    groups = load_groups()
-    if not groups:
-        log.error("No groups found. Aborting.")
-        return
-    
-    # Prepare image paths
+    # Prepare paths
     post_folder = os.path.join(POSTS_FOLDER, post_name)
     urdu_img = os.path.join(post_folder, "urdu.jpg")
     eng_img = os.path.join(post_folder, "eng.jpg")
     
-    # Track success/failure
+    log.info(f"🖼️ Urdu image: {urdu_img}")
+    log.info(f"🖼️ English image: {eng_img}")
+    
+    # Check files exist
+    if not os.path.exists(urdu_img):
+        log.error(f"❌ Urdu image not found: {urdu_img}")
+        return
+    if not os.path.exists(eng_img):
+        log.error(f"❌ English image not found: {eng_img}")
+        return
+    
+    # Send to each group
     successful = []
     failed = []
     
-    # Send to each group
     for group in groups:
-        try:
-            # Send Urdu image (NO caption)
-            success_urdu = send_image_via_api(group, urdu_img, caption="")
+        log.info("-" * 60)
+        log.info(f"📱 Sending to: {group}")
+        log.info("-" * 60)
+        
+        # Send Urdu
+        success_urdu = send_image(group, urdu_img, caption="")
+        
+        if success_urdu:
+            # Send English
+            success_eng = send_image(group, eng_img, caption="")
             
-            if success_urdu:
-                # Send English image (NO caption)
-                success_eng = send_image_via_api(group, eng_img, caption="")
-                
-                if success_eng:
-                    successful.append(group)
-                    log.info(f"✓ Both images sent to '{group}'")
-                else:
-                    failed.append(group)
-                    log.warning(f"⚠️ English image failed for '{group}'")
+            if success_eng:
+                successful.append(group)
+                log.info(f"✅ Both images sent to {group}")
             else:
                 failed.append(group)
-                log.warning(f"⚠️ Urdu image failed for '{group}'")
-                
-        except Exception as e:
+                log.warning(f"⚠️ English image failed for {group}")
+        else:
             failed.append(group)
-            log.error(f"✗ Error sending to '{group}': {e}")
+            log.warning(f"⚠️ Urdu image failed for {group}")
     
-    # Update database and rename folder
+    # Summary
+    log.info("=" * 60)
+    log.info("📊 SUMMARY")
+    log.info("=" * 60)
+    
     if successful:
+        log.info(f"✅ Success: {len(successful)} group(s)")
+        for g in successful:
+            log.info(f"   ✓ {g}")
+        
+        # Mark as sent
         mark_post_sent(db, post_name)
         rename_folder_sent(post_name)
-        log.info(f"✅ Post '{post_name}' sent to {len(successful)} group(s)")
     else:
-        log.error(f"❌ Post '{post_name}' was NOT sent to any group")
+        log.info(f"❌ Failed: {len(failed)} group(s)")
+        for g in failed:
+            log.info(f"   ✗ {g}")
     
     if failed:
-        log.warning(f"⚠️  Failed groups: {failed}")
+        log.info("=" * 60)
+        log.info("🔧 TROUBLESHOOTING TIPS:")
+        log.info("=" * 60)
+        log.info("1. Check phone number format: 923140839915 (no + or 0)")
+        log.info("2. Check UltraMsg instance is connected")
+        log.info("3. Check API credentials in GitHub Secrets")
+        log.info("4. Check image size (must be under 5MB)")
+        log.info("5. Check UltraMsg balance/limits")
     
-    log.info(f"Cloud job complete — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     log.info("=" * 60)
 
-
-# ══════════════════════════════════════════════
-#  ENTRY POINT
-# ══════════════════════════════════════════════
 if __name__ == "__main__":
-    daily_job_api()
+    main()
