@@ -1,0 +1,17 @@
+# Original dependencies
+selenium==4.18.1
+webdriver-manager==4.0.1
+schedule==1.2.1
+easyocr==1.7.0
+
+# Solution 1: API Approach (Recommended)
+requests==2.31.0
+
+# Solution 2: Undetected ChromeDriver (Alternative)
+undetected-chromedriver==3.5.5
+
+# Optional: Twilio WhatsApp API
+# twilio==8.11.0
+
+# Optional: Clipboard support
+# pyperclip==1.11.0

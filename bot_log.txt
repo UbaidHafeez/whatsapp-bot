@@ -1,0 +1,1453 @@
+2026-03-25 17:18:49,477 | INFO | Running immediately (--now flag detected) …
+2026-03-25 17:18:49,478 | INFO | ============================================================
+2026-03-25 17:18:49,479 | INFO | Daily job started — 2026-03-25 17:18:49
+2026-03-25 17:18:49,480 | INFO | ============================================================
+2026-03-25 17:18:49,482 | WARNING | Skipping 'post_001' — missing urdu.jpg or eng.jpg
+2026-03-25 17:18:49,483 | WARNING | Skipping 'post_002' — missing urdu.jpg or eng.jpg
+2026-03-25 17:18:49,485 | INFO | Detected 0 valid post(s): []
+2026-03-25 17:18:49,486 | ERROR | No valid posts found in islamic_posts/. Aborting.
+2026-03-25 17:19:43,269 | INFO | Running immediately (--now flag detected) …
+2026-03-25 17:19:43,277 | INFO | ============================================================
+2026-03-25 17:19:43,278 | INFO | Daily job started — 2026-03-25 17:19:43
+2026-03-25 17:19:43,280 | INFO | ============================================================
+2026-03-25 17:19:43,282 | WARNING | Skipping 'post_001' — missing urdu.jpg or eng.jpg
+2026-03-25 17:19:43,284 | WARNING | Skipping 'post_002' — missing urdu.jpg or eng.jpg
+2026-03-25 17:19:43,285 | INFO | Detected 0 valid post(s): []
+2026-03-25 17:19:43,286 | ERROR | No valid posts found in islamic_posts/. Aborting.
+2026-03-25 17:23:25,269 | INFO | Running immediately (--now flag detected) …
+2026-03-25 17:23:25,270 | INFO | ============================================================
+2026-03-25 17:23:25,271 | INFO | Daily job started — 2026-03-25 17:23:25
+2026-03-25 17:23:25,271 | INFO | ============================================================
+2026-03-25 17:23:25,272 | WARNING | Skipping 'post_002' — missing urdu.jpg or eng.jpg
+2026-03-25 17:23:25,273 | INFO | Detected 0 valid post(s): []
+2026-03-25 17:23:25,274 | ERROR | No valid posts found in islamic_posts/. Aborting.
+2026-03-25 17:34:33,246 | INFO | Scheduler started. Bot will run every day at 19:00.
+2026-03-25 17:34:33,246 | INFO | Press Ctrl+C to stop.
+
+2026-03-25 17:34:56,421 | INFO | Running immediately (--now flag detected) …
+2026-03-25 17:34:56,421 | INFO | ============================================================
+2026-03-25 17:34:56,422 | INFO | Daily job started — 2026-03-25 17:34:56
+2026-03-25 17:34:56,422 | INFO | ============================================================
+2026-03-25 17:34:56,422 | WARNING | Skipping 'post_002' — missing urdu.jpg or eng.jpg
+2026-03-25 17:34:56,423 | INFO | Detected 0 valid post(s): []
+2026-03-25 17:34:56,423 | ERROR | No valid posts found in islamic_posts/. Aborting.
+2026-03-25 17:35:35,117 | INFO | Running immediately (--now flag detected) …
+2026-03-25 17:35:35,118 | INFO | ============================================================
+2026-03-25 17:35:35,118 | INFO | Daily job started — 2026-03-25 17:35:35
+2026-03-25 17:35:35,118 | INFO | ============================================================
+2026-03-25 17:35:35,119 | WARNING | Skipping 'post_002' — missing urdu.jpg or eng.jpg
+2026-03-25 17:35:35,119 | INFO | Detected 0 valid post(s): []
+2026-03-25 17:35:35,119 | ERROR | No valid posts found in islamic_posts/. Aborting.
+2026-03-25 17:54:08,948 | INFO | Running immediately (--now flag detected) …
+2026-03-25 17:54:08,948 | INFO | ============================================================
+2026-03-25 17:54:08,949 | INFO | Daily job started — 2026-03-25 17:54:08
+2026-03-25 17:54:08,949 | INFO | ============================================================
+2026-03-25 17:54:08,950 | INFO | 🔍 Analyzing images in 'post_002' with AI OCR...
+2026-03-25 17:54:08,950 | INFO | Loading AI OCR models for language detection (happens once)...
+2026-03-25 17:54:08,958 | WARNING | Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-25 17:54:08,971 | WARNING | Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2026-03-25 17:57:06,518 | INFO | Running immediately (--now flag detected) …
+2026-03-25 17:57:06,518 | INFO | ============================================================
+2026-03-25 17:57:06,519 | INFO | Daily job started — 2026-03-25 17:57:06
+2026-03-25 17:57:06,519 | INFO | ============================================================
+2026-03-25 17:57:06,519 | INFO | 🔍 Analyzing images in 'post_002' with AI OCR...
+2026-03-25 17:57:06,520 | INFO | Loading AI OCR models for language detection (happens once)...
+2026-03-25 17:57:06,520 | WARNING | Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2026-03-25 17:57:06,526 | WARNING | Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2026-03-25 17:59:52,284 | INFO | Download complete
+2026-03-25 17:59:52,285 | WARNING | Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2026-03-25 18:02:44,181 | INFO | Download complete.
+2026-03-25 18:02:56,091 | INFO | ✅ Successfully identified and renamed images in 'post_002'
+2026-03-25 18:02:56,092 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-25 18:02:56,092 | ERROR | Images missing for 'post_001'. Skipping.
+2026-03-25 19:23:16,017 | INFO | Running immediately (--now flag detected) …
+2026-03-25 19:23:16,017 | INFO | ============================================================
+2026-03-25 19:23:16,017 | INFO | Daily job started — 2026-03-25 19:23:16
+2026-03-25 19:23:16,018 | INFO | ============================================================
+2026-03-25 19:23:16,018 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-25 19:23:16,018 | INFO | Selected post: 'post_002'
+2026-03-25 19:23:16,019 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-25 19:23:16,019 | INFO | ====== WebDriver manager ======
+2026-03-25 19:23:17,024 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-25 19:23:19,459 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-25 19:23:20,660 | INFO | There is no [win64] chromedriver "145.0.7632.117" for browser google-chrome "145.0.7632" in cache
+2026-03-25 19:23:20,661 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-25 19:23:22,890 | INFO | WebDriver version 145.0.7632.117 selected
+2026-03-25 19:23:22,896 | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-25 19:23:22,897 | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-25 19:23:24,563 | INFO | Driver downloading response is 200
+2026-03-25 19:24:06,339 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-25 19:24:07,964 | INFO | Driver has been saved in cache [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117]
+2026-03-25 19:36:20,822 | INFO | Running immediately (--now flag detected) …
+2026-03-25 19:36:20,822 | INFO | ============================================================
+2026-03-25 19:36:20,823 | INFO | Daily job started — 2026-03-25 19:36:20
+2026-03-25 19:36:20,823 | INFO | ============================================================
+2026-03-25 19:36:20,824 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-25 19:36:20,824 | INFO | Selected post: 'post_002'
+2026-03-25 19:36:20,825 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-25 20:03:05,255 | INFO | Running immediately (--now flag detected) …
+2026-03-25 20:03:05,255 | INFO | ============================================================
+2026-03-25 20:03:05,256 | INFO | Daily job started — 2026-03-25 20:03:05
+2026-03-25 20:03:05,256 | INFO | ============================================================
+2026-03-25 20:03:05,256 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-25 20:03:05,257 | INFO | Selected post: 'post_002'
+2026-03-25 20:03:05,257 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-25 20:07:31,691 | INFO | Running immediately (--now flag detected) …
+2026-03-25 20:07:31,692 | INFO | ============================================================
+2026-03-25 20:07:31,692 | INFO | Daily job started — 2026-03-25 20:07:31
+2026-03-25 20:07:31,692 | INFO | ============================================================
+2026-03-25 20:07:31,692 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-25 20:07:31,693 | INFO | Selected post: 'post_002'
+2026-03-25 20:07:31,693 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-25 20:07:31,694 | INFO | ====== WebDriver manager ======
+2026-03-25 20:07:32,574 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-25 20:07:33,959 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-25 20:07:35,016 | INFO | There is no [win64] chromedriver "145.0.7632.117" for browser google-chrome "145.0.7632" in cache
+2026-03-25 20:07:35,018 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-25 20:07:39,544 | INFO | WebDriver version 145.0.7632.117 selected
+2026-03-25 20:07:39,550 | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-25 20:07:39,551 | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-25 20:07:40,435 | INFO | Driver downloading response is 200
+2026-03-25 20:07:57,760 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-25 20:07:58,724 | INFO | Driver has been saved in cache [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117]
+2026-03-26 14:43:07,146 | INFO | Running immediately (--now flag detected) …
+2026-03-26 14:43:07,148 | INFO | ============================================================
+2026-03-26 14:43:07,149 | INFO | Daily job started — 2026-03-26 14:43:07
+2026-03-26 14:43:07,150 | INFO | ============================================================
+2026-03-26 14:43:07,152 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 14:43:07,154 | INFO | Selected post: 'post_002'
+2026-03-26 14:43:07,155 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 14:43:07,156 | INFO | ====== WebDriver manager ======
+2026-03-26 14:43:10,833 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 14:46:07,899 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 14:46:42,668 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 14:48:29,582 | INFO | WebDriver version 145.0.7632.117 selected
+2026-03-26 14:48:29,595 | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-26 14:48:29,597 | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-26 14:57:43,504 | INFO | Running immediately (--now flag detected) …
+2026-03-26 14:57:43,505 | INFO | ============================================================
+2026-03-26 14:57:43,507 | INFO | Daily job started — 2026-03-26 14:57:43
+2026-03-26 14:57:43,508 | INFO | ============================================================
+2026-03-26 14:57:43,510 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 14:57:43,512 | INFO | Selected post: 'post_002'
+2026-03-26 14:57:43,514 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 15:11:28,989 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:11:28,990 | INFO | ============================================================
+2026-03-26 15:11:28,991 | INFO | Daily job started — 2026-03-26 15:11:28
+2026-03-26 15:11:28,992 | INFO | ============================================================
+2026-03-26 15:11:28,995 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:11:28,997 | INFO | Selected post: 'post_002'
+2026-03-26 15:11:28,999 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 15:11:29,002 | INFO | ====== WebDriver manager ======
+2026-03-26 15:11:31,185 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:11:33,115 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:11:34,931 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:11:38,649 | INFO | WebDriver version 145.0.7632.117 selected
+2026-03-26 15:11:38,667 | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-26 15:11:38,669 | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-26 15:11:40,335 | INFO | Driver downloading response is 200
+2026-03-26 15:11:50,361 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:11:52,153 | INFO | Driver has been saved in cache [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117]
+2026-03-26 15:15:04,848 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:15:04,849 | INFO | ============================================================
+2026-03-26 15:15:04,850 | INFO | Daily job started — 2026-03-26 15:15:04
+2026-03-26 15:15:04,851 | INFO | ============================================================
+2026-03-26 15:15:04,853 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:15:04,855 | INFO | Selected post: 'post_002'
+2026-03-26 15:15:04,857 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 15:15:04,860 | INFO | ====== WebDriver manager ======
+2026-03-26 15:15:07,352 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:15:08,920 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:15:10,667 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:15:15,473 | INFO | WebDriver version 145.0.7632.117 selected
+2026-03-26 15:15:15,493 | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-26 15:15:15,495 | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+2026-03-26 15:15:17,375 | INFO | Driver downloading response is 200
+2026-03-26 15:15:28,225 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:15:30,360 | INFO | Driver has been saved in cache [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117]
+2026-03-26 15:26:12,654 | INFO | ====== WebDriver manager ======
+2026-03-26 15:26:13,831 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:26:14,814 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:26:15,637 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:30:40,153 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:30:40,154 | INFO | ============================================================
+2026-03-26 15:30:40,154 | INFO | Daily job started — 2026-03-26 15:30:40
+2026-03-26 15:30:40,154 | INFO | ============================================================
+2026-03-26 15:30:40,155 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:30:40,155 | INFO | Selected post: 'post_002'
+2026-03-26 15:30:40,156 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 15:30:40,156 | INFO | ====== WebDriver manager ======
+2026-03-26 15:30:41,192 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:30:58,695 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:31:03,160 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:31:04,273 | INFO | Opening WhatsApp Web …
+2026-03-26 15:32:09,350 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:33:09,366 | WARNING | Attempt 1/3 — WhatsApp Web did not load in time. Please check your internet or QR scan.
+2026-03-26 15:33:19,367 | INFO | Opening WhatsApp Web …
+2026-03-26 15:33:28,030 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:34:28,624 | WARNING | Attempt 2/3 — WhatsApp Web did not load in time. Please check your internet or QR scan.
+2026-03-26 15:34:38,626 | INFO | Opening WhatsApp Web …
+2026-03-26 15:34:40,076 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:34:45,146 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:34:46,712 | ERROR | Error searching for group 'Ubaid😎': Message: invalid element state
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711bee
+	0x75398e
+	0x77ea3c
+	0x7518c4
+	0x77ec04
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+
+2026-03-26 15:34:49,113 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:34:49,113 | WARNING | ⚠️  Failed groups: ['Ubaid😎']
+2026-03-26 15:34:49,114 | INFO | Daily job complete — 2026-03-26 15:34:49
+2026-03-26 15:34:49,114 | INFO | ============================================================
+2026-03-26 15:36:14,830 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:36:14,830 | INFO | ============================================================
+2026-03-26 15:36:14,830 | INFO | Daily job started — 2026-03-26 15:36:14
+2026-03-26 15:36:14,831 | INFO | ============================================================
+2026-03-26 15:36:14,831 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:36:14,832 | INFO | Selected post: 'post_002'
+2026-03-26 15:36:14,832 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 15:36:14,833 | INFO | ====== WebDriver manager ======
+2026-03-26 15:36:16,146 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:36:17,195 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:36:19,170 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:36:20,414 | INFO | Opening WhatsApp Web …
+2026-03-26 15:36:21,967 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:36:26,478 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:36:28,215 | ERROR | Error searching for group 'Ubaid😎': Message: invalid element state
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711bee
+	0x75398e
+	0x77ea3c
+	0x7518c4
+	0x77ec04
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+
+2026-03-26 15:36:30,575 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:36:30,576 | WARNING | ⚠️  Failed groups: ['Ubaid😎']
+2026-03-26 15:36:30,576 | INFO | Daily job complete — 2026-03-26 15:36:30
+2026-03-26 15:36:30,577 | INFO | ============================================================
+2026-03-26 15:37:58,380 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:37:58,381 | INFO | ============================================================
+2026-03-26 15:37:58,381 | INFO | Daily job started — 2026-03-26 15:37:58
+2026-03-26 15:37:58,381 | INFO | ============================================================
+2026-03-26 15:37:58,382 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:37:58,383 | INFO | Selected post: 'post_002'
+2026-03-26 15:37:58,383 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 15:37:58,384 | INFO | ====== WebDriver manager ======
+2026-03-26 15:37:59,548 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:38:00,370 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:38:01,147 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:38:02,445 | INFO | Opening WhatsApp Web …
+2026-03-26 15:38:03,556 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:38:08,415 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:38:10,019 | ERROR | Error searching for group 'Ubaid😎': Message: invalid element state
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711bee
+	0x75398e
+	0x77ea3c
+	0x7518c4
+	0x77ec04
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+
+2026-03-26 15:38:12,319 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:38:12,319 | WARNING | ⚠️  Failed groups: ['Ubaid😎']
+2026-03-26 15:38:12,320 | INFO | Daily job complete — 2026-03-26 15:38:12
+2026-03-26 15:38:12,320 | INFO | ============================================================
+2026-03-26 15:38:33,339 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:38:33,340 | INFO | ============================================================
+2026-03-26 15:38:33,340 | INFO | Daily job started — 2026-03-26 15:38:33
+2026-03-26 15:38:33,341 | INFO | ============================================================
+2026-03-26 15:38:33,341 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:38:33,342 | INFO | Selected post: 'post_002'
+2026-03-26 15:38:33,343 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 15:38:33,344 | INFO | ====== WebDriver manager ======
+2026-03-26 15:38:34,744 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:38:35,525 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:38:36,296 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:38:37,559 | INFO | Opening WhatsApp Web …
+2026-03-26 15:38:38,757 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:38:43,473 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:38:45,318 | ERROR | Error searching for group 'Ubaid😎': Message: invalid element state
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711bee
+	0x75398e
+	0x77ea3c
+	0x7518c4
+	0x77ec04
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+
+2026-03-26 15:38:47,637 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:38:47,638 | WARNING | ⚠️  Failed groups: ['Ubaid😎']
+2026-03-26 15:38:47,638 | INFO | Daily job complete — 2026-03-26 15:38:47
+2026-03-26 15:38:47,638 | INFO | ============================================================
+2026-03-26 15:40:50,276 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:40:50,277 | INFO | ============================================================
+2026-03-26 15:40:50,277 | INFO | Daily job started — 2026-03-26 15:40:50
+2026-03-26 15:40:50,278 | INFO | ============================================================
+2026-03-26 15:40:50,278 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:40:50,279 | INFO | Selected post: 'post_002'
+2026-03-26 15:40:50,280 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 15:40:50,281 | INFO | ====== WebDriver manager ======
+2026-03-26 15:40:51,502 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:40:52,283 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:40:53,194 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:40:54,475 | INFO | Opening WhatsApp Web …
+2026-03-26 15:40:55,770 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:41:00,562 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:41:02,447 | ERROR | Error searching for group 'Ubaid😎': Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711db0
+	0x795ab5
+	0x756dbb
+	0x75547b
+	0x77ea3c
+	0x7518c4
+	0x77ec04
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+
+2026-03-26 15:41:04,769 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:41:04,769 | WARNING | ⚠️  Failed groups: ['Ubaid😎']
+2026-03-26 15:41:04,770 | INFO | Daily job complete — 2026-03-26 15:41:04
+2026-03-26 15:41:04,770 | INFO | ============================================================
+2026-03-26 15:41:45,719 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:41:45,719 | INFO | ============================================================
+2026-03-26 15:41:45,720 | INFO | Daily job started — 2026-03-26 15:41:45
+2026-03-26 15:41:45,720 | INFO | ============================================================
+2026-03-26 15:41:45,721 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:41:45,722 | INFO | Selected post: 'post_002'
+2026-03-26 15:41:45,722 | INFO | Loaded 1 group(s): ['Ubaid😎']
+2026-03-26 15:41:45,723 | INFO | ====== WebDriver manager ======
+2026-03-26 15:41:46,940 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:41:47,723 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:41:48,539 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:41:49,865 | INFO | Opening WhatsApp Web …
+2026-03-26 15:41:51,033 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:41:55,156 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:41:59,206 | WARNING | Group not found: 'Ubaid😎' — skipping.
+2026-03-26 15:41:59,221 | ERROR | Error searching for group 'Ubaid😎': Message: invalid element state
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711bee
+	0x75398e
+	0x77ea3c
+	0x7518c4
+	0x77ec04
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+
+2026-03-26 15:42:01,559 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:42:01,560 | WARNING | ⚠️  Failed groups: ['Ubaid😎']
+2026-03-26 15:42:01,560 | INFO | Daily job complete — 2026-03-26 15:42:01
+2026-03-26 15:42:01,560 | INFO | ============================================================
+2026-03-26 15:43:34,503 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:43:34,503 | INFO | ============================================================
+2026-03-26 15:43:34,504 | INFO | Daily job started — 2026-03-26 15:43:34
+2026-03-26 15:43:34,504 | INFO | ============================================================
+2026-03-26 15:43:34,505 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:43:34,506 | INFO | Selected post: 'post_002'
+2026-03-26 15:43:34,506 | INFO | Loaded 1 group(s): ['Family']
+2026-03-26 15:43:34,507 | INFO | ====== WebDriver manager ======
+2026-03-26 15:43:35,845 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:43:36,691 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:43:37,515 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:43:38,829 | INFO | Opening WhatsApp Web …
+2026-03-26 15:43:39,910 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:43:44,969 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:43:49,046 | WARNING | Group not found: 'Family' — skipping.
+2026-03-26 15:43:51,637 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:43:51,638 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-26 15:43:51,638 | INFO | Daily job complete — 2026-03-26 15:43:51
+2026-03-26 15:43:51,639 | INFO | ============================================================
+2026-03-26 15:45:03,065 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:45:03,066 | INFO | ============================================================
+2026-03-26 15:45:03,066 | INFO | Daily job started — 2026-03-26 15:45:03
+2026-03-26 15:45:03,067 | INFO | ============================================================
+2026-03-26 15:45:03,067 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:45:03,068 | INFO | Selected post: 'post_002'
+2026-03-26 15:45:03,069 | INFO | Loaded 1 group(s): ['Family']
+2026-03-26 15:45:03,070 | INFO | ====== WebDriver manager ======
+2026-03-26 15:45:04,733 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:45:06,059 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:45:10,891 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:45:12,577 | INFO | Opening WhatsApp Web …
+2026-03-26 15:45:14,538 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:45:20,370 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:45:26,282 | ERROR | Error searching for group 'Family': Message: element click intercepted: Element <span dir="auto" title="..." class="x1iyjqo2 x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft x1rg5ohu x1jchvi3 xjb2p0i xo1l8bm x17mssa0 x1ic7a3i _ao3e" style="min-height: 0px;">Family </span> is not clickable at point (322, 528). Other element would receive the click: <div class="_ak8q">...</div>
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711db0
+	0x7628f8
+	0x760b09
+	0x75e4c2
+	0x75d6d4
+	0x751e88
+	0x77ea3c
+	0x7518c4
+	0x77ec04
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+
+2026-03-26 15:45:28,869 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:45:28,869 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-26 15:45:28,870 | INFO | Daily job complete — 2026-03-26 15:45:28
+2026-03-26 15:45:28,870 | INFO | ============================================================
+2026-03-26 15:48:44,479 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:48:44,479 | INFO | ============================================================
+2026-03-26 15:48:44,480 | INFO | Daily job started — 2026-03-26 15:48:44
+2026-03-26 15:48:44,480 | INFO | ============================================================
+2026-03-26 15:48:44,480 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:48:44,481 | INFO | Selected post: 'post_002'
+2026-03-26 15:48:44,482 | INFO | Loaded 1 group(s): ['Family']
+2026-03-26 15:48:44,482 | INFO | ====== WebDriver manager ======
+2026-03-26 15:48:45,648 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:48:46,410 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:48:49,409 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:48:50,753 | INFO | Opening WhatsApp Web …
+2026-03-26 15:48:51,669 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:48:55,908 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:49:12,206 | WARNING | Normal click failed for 'Family' (Message: element click intercepted: Element <span dir="auto" title="..." class="x1iyjqo2 x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft x1rg5ohu x1jchvi3 xjb2p0i xo1l8bm x17mssa0 x1ic7a3i _ao3e" style="min-height: 0px;">Family </span> is not clickable at point (322, 385). Other element would receive the click: <div class="_ak8q">...</div>
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711db0
+	0x7628f8
+	0x760b09
+	0x75e4c2
+	0x75d6d4
+	0x751e88
+	0x77ea3c
+	0x7518c4
+	0x77ec04
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+). Trying JS click …
+2026-03-26 15:49:15,218 | INFO | Opened group: 'Family'
+2026-03-26 15:49:15,219 | INFO | Sending image: D:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-26 15:49:30,250 | ERROR | Failed to send image 'D:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg': Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711db0
+	0x75c20a
+	0x75c4ab
+	0x79de32
+	0x77ea84
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+
+2026-03-26 15:49:30,252 | ERROR | Error processing group 'Family': Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711db0
+	0x75c20a
+	0x75c4ab
+	0x79de32
+	0x77ea84
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+
+2026-03-26 15:49:32,525 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:49:32,526 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-26 15:49:32,526 | INFO | Daily job complete — 2026-03-26 15:49:32
+2026-03-26 15:49:32,526 | INFO | ============================================================
+2026-03-26 15:56:04,594 | INFO | Running immediately (--now flag detected) …
+2026-03-26 15:56:04,594 | INFO | ============================================================
+2026-03-26 15:56:04,594 | INFO | Daily job started — 2026-03-26 15:56:04
+2026-03-26 15:56:04,595 | INFO | ============================================================
+2026-03-26 15:56:04,595 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-26 15:56:04,596 | INFO | Selected post: 'post_002'
+2026-03-26 15:56:04,596 | INFO | Loaded 1 group(s): ['Family']
+2026-03-26 15:56:04,597 | INFO | ====== WebDriver manager ======
+2026-03-26 15:56:05,788 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:56:19,553 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-26 15:56:31,396 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-26 15:56:32,632 | INFO | Opening WhatsApp Web …
+2026-03-26 15:56:51,178 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-26 15:57:05,590 | INFO | WhatsApp Web loaded successfully.
+2026-03-26 15:57:21,223 | WARNING | Normal click failed for 'Family' (Message: element click intercepted: Element <span class="x78zum5 x1cy8zhl" title="‪PROJECT: Automated WhatsApp Islamic Post Sender (Self-Detecting Version)
+Goal: Create a Python automation bot that sends two images (Urdu and English versions of an Islamic reminder) to multiple WhatsApp groups automatically once per day.
+Platform: Python with Selenium automation using WhatsApp Web.
+System Requirements:
+
+Folder Structure
+
+Main folder:
+islamic_posts/
+Each post must have its own folder.
+Example:
+islamic_posts/ post_001/ urdu.jpg eng.jpg post_002/ urdu.jpg eng.jpg post_003/ urdu.jpg eng.jpg
+Each folder contains exactly two images:
+
+urdu.jpg
+
+eng.jpg
+
+Automatic Post Detection
+
+The system must automatically scan the islamic_posts folder and detect all post folders.
+
+Post Database
+
+Create a file:
+posts_db.json
+Example format:
+{ &quot;post_001&quot;: false, &quot;post_002&quot;: false, &quot;post_003&quot;: true }
+false = not sent
+true = already sent
+The system must update this database automatically after sending a post.
+
+Group Configuration
+
+Create a file:
+groups.txt
+Example:
+Islamic Reminder Family Group Friends Group Daily Hadith
+The bot must send the post to every group in this list.
+
+WhatsApp Automation
+
+Using Selenium:
+Steps:
+
+open WhatsApp Web
+
+wait for login session
+
+search group
+
+open group chat
+
+upload urdu.jpg
+
+send
+
+upload eng.jpg
+
+send
+
+repeat for all groups
+
+Scheduling
+
+The system must send one post per day automatically.
+Example time: 7:00 PM daily.
+
+Logging
+
+Create log file:
+bot_log.txt
+Log:
+
+date
+
+post sent
+
+groups processed
+
+errors
+
+Error Handling
+
+If:
+
+a group is not found → skip
+
+image missing → log error
+
+WhatsApp not loaded → retry
+
+System Behavior
+
+The bot must:
+
+pick the first unsent post
+
+send it
+
+mark it as sent in the database
+
+continue next day with next post
+
+Scalability
+
+The system must support:
+
+365+ posts
+
+multiple groups
+
+adding new posts anytime without restarting the system.
+
+Output: Fully working Python script with comments and setup instructions.‬">...</span> is not clickable at point (343, 385). Other element would receive the click: <div class="_ak8q">...</div>
+  (Session info: chrome=145.0.7632.77)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x907dd3
+	0x907e14
+	0x711db0
+	0x7628f8
+	0x760b09
+	0x75e4c2
+	0x75d6d4
+	0x751e88
+	0x77ea3c
+	0x7518c4
+	0x77ec04
+	0x79b621
+	0x77e7d6
+	0x750049
+	0x750e04
+	0xb66924
+	0xb61bf7
+	0xb7f5a0
+	0x920f58
+	0x92891d
+	0x910648
+	0x910812
+	0x8fa21a
+	0x7648fcc9
+	0x76fb82ae
+	0x76fb827e
+). Trying JS click …
+2026-03-26 15:57:24,239 | INFO | Opened group: 'Family'
+2026-03-26 15:57:24,240 | INFO | Sending image: D:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-26 15:58:00,037 | WARNING | Could not click attach button — will try direct input lookup (Strategy B).
+2026-03-26 15:58:32,769 | ERROR | Error processing group 'Family': Could not locate the file <input> element. WhatsApp Web may have changed its DOM. Open DevTools on web.whatsapp.com and inspect the attach button area.
+2026-03-26 15:58:35,009 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-26 15:58:35,015 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-26 15:58:35,015 | INFO | Daily job complete — 2026-03-26 15:58:35
+2026-03-26 15:58:35,016 | INFO | ============================================================
+2026-03-29 11:59:42,245 | INFO | Running immediately (--now flag detected) …
+2026-03-29 11:59:42,246 | INFO | ============================================================
+2026-03-29 11:59:42,249 | INFO | Daily job started — 2026-03-29 11:59:42
+2026-03-29 11:59:42,249 | INFO | ============================================================
+2026-03-29 11:59:42,251 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 11:59:42,253 | INFO | Selected post: 'post_002'
+2026-03-29 11:59:42,254 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 11:59:42,255 | INFO | ====== WebDriver manager ======
+2026-03-29 11:59:44,816 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 11:59:46,296 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 11:59:48,972 | INFO | There is no [win64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-03-29 11:59:48,972 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 11:59:57,099 | INFO | WebDriver version 146.0.7680.165 selected
+2026-03-29 11:59:57,107 | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-29 11:59:57,110 | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-29 11:59:58,814 | INFO | Driver downloading response is 200
+2026-03-29 12:02:55,491 | INFO | Running immediately (--now flag detected) …
+2026-03-29 12:02:55,492 | INFO | ============================================================
+2026-03-29 12:02:55,492 | INFO | Daily job started — 2026-03-29 12:02:55
+2026-03-29 12:02:55,493 | INFO | ============================================================
+2026-03-29 12:02:55,493 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 12:02:55,494 | INFO | Selected post: 'post_002'
+2026-03-29 12:02:55,495 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 12:02:55,495 | INFO | ====== WebDriver manager ======
+2026-03-29 12:02:56,489 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:03:00,693 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:03:02,772 | INFO | There is no [win64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-03-29 12:03:02,772 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:04:39,753 | INFO | Running immediately (--now flag detected) …
+2026-03-29 12:04:39,754 | INFO | ============================================================
+2026-03-29 12:04:39,754 | INFO | Daily job started — 2026-03-29 12:04:39
+2026-03-29 12:04:39,754 | INFO | ============================================================
+2026-03-29 12:04:39,754 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 12:04:39,755 | INFO | Selected post: 'post_002'
+2026-03-29 12:04:39,755 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 12:04:39,756 | INFO | ====== WebDriver manager ======
+2026-03-29 12:04:40,884 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:05:44,673 | INFO | Running immediately (--now flag detected) …
+2026-03-29 12:05:44,673 | INFO | ============================================================
+2026-03-29 12:05:44,674 | INFO | Daily job started — 2026-03-29 12:05:44
+2026-03-29 12:05:44,674 | INFO | ============================================================
+2026-03-29 12:05:44,674 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 12:05:44,675 | INFO | Selected post: 'post_002'
+2026-03-29 12:05:44,675 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 12:05:44,675 | INFO | ====== WebDriver manager ======
+2026-03-29 12:05:45,579 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:06:25,240 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:06:49,123 | INFO | There is no [win64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-03-29 12:06:49,124 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:07:42,192 | INFO | WebDriver version 146.0.7680.165 selected
+2026-03-29 12:07:42,199 | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-29 12:07:42,200 | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-29 12:07:45,389 | INFO | Driver downloading response is 200
+2026-03-29 12:17:36,920 | INFO | Running immediately (--now flag detected) …
+2026-03-29 12:17:36,921 | INFO | ============================================================
+2026-03-29 12:17:36,921 | INFO | Daily job started — 2026-03-29 12:17:36
+2026-03-29 12:17:36,921 | INFO | ============================================================
+2026-03-29 12:17:36,922 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 12:17:36,922 | INFO | Selected post: 'post_002'
+2026-03-29 12:17:36,922 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 12:17:37,022 | INFO | Closed existing Chrome processes.
+2026-03-29 12:17:37,028 | INFO | ====== WebDriver manager ======
+2026-03-29 12:17:38,040 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:22:49,588 | INFO | Running immediately (--now flag detected) …
+2026-03-29 12:22:49,588 | INFO | ============================================================
+2026-03-29 12:22:49,588 | INFO | Daily job started — 2026-03-29 12:22:49
+2026-03-29 12:22:49,589 | INFO | ============================================================
+2026-03-29 12:22:49,589 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 12:22:49,589 | INFO | Selected post: 'post_002'
+2026-03-29 12:22:49,590 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 12:22:49,689 | INFO | Closed existing Chrome processes.
+2026-03-29 12:22:49,692 | INFO | ====== WebDriver manager ======
+2026-03-29 12:22:50,686 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:24:37,394 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:29:28,988 | INFO | Running immediately (--now flag detected) …
+2026-03-29 12:29:28,989 | INFO | ============================================================
+2026-03-29 12:29:28,989 | INFO | Daily job started — 2026-03-29 12:29:28
+2026-03-29 12:29:28,989 | INFO | ============================================================
+2026-03-29 12:29:28,989 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 12:29:28,990 | INFO | Selected post: 'post_002'
+2026-03-29 12:29:28,990 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 12:29:29,069 | INFO | Closed existing Chrome processes.
+2026-03-29 12:29:29,070 | INFO | ====== WebDriver manager ======
+2026-03-29 12:29:30,034 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:29:32,435 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:29:36,311 | INFO | There is no [win64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-03-29 12:29:36,312 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:29:38,433 | INFO | WebDriver version 146.0.7680.165 selected
+2026-03-29 12:29:38,440 | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-29 12:29:38,440 | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-29 12:29:40,268 | INFO | Driver downloading response is 200
+2026-03-29 12:29:58,231 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:29:59,107 | INFO | Driver has been saved in cache [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165]
+2026-03-29 12:30:01,413 | INFO | Opening WhatsApp Web …
+2026-03-29 12:30:54,202 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 12:31:54,228 | WARNING | Attempt 1/3 — WhatsApp Web did not load in time. Please check your internet or QR scan.
+2026-03-29 12:32:04,229 | INFO | Opening WhatsApp Web …
+2026-03-29 12:32:05,930 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 12:33:06,269 | WARNING | Attempt 2/3 — WhatsApp Web did not load in time. Please check your internet or QR scan.
+2026-03-29 12:33:16,270 | INFO | Opening WhatsApp Web …
+2026-03-29 12:33:17,167 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 12:34:17,618 | WARNING | Attempt 3/3 — WhatsApp Web did not load in time. Please check your internet or QR scan.
+2026-03-29 12:34:17,619 | ERROR | WhatsApp failed to load after 3 attempts. Aborting.
+2026-03-29 12:37:52,326 | INFO | Running immediately (--now flag detected) …
+2026-03-29 12:37:52,326 | INFO | ============================================================
+2026-03-29 12:37:52,326 | INFO | Daily job started — 2026-03-29 12:37:52
+2026-03-29 12:37:52,327 | INFO | ============================================================
+2026-03-29 12:37:52,327 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 12:37:52,327 | INFO | Selected post: 'post_002'
+2026-03-29 12:37:52,327 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 12:37:52,395 | INFO | Closed existing Chrome processes.
+2026-03-29 12:37:52,395 | INFO | ====== WebDriver manager ======
+2026-03-29 12:37:53,317 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:37:54,591 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:37:55,501 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 12:37:56,758 | INFO | Opening WhatsApp Web …
+2026-03-29 12:38:06,519 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 12:39:06,695 | WARNING | Attempt 1/3 — WhatsApp Web did not load in time. Please check your internet or QR scan.
+2026-03-29 12:39:16,696 | INFO | Opening WhatsApp Web …
+2026-03-29 12:39:18,054 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 12:43:39,740 | INFO | Running immediately (--now flag detected) …
+2026-03-29 12:43:39,741 | INFO | ============================================================
+2026-03-29 12:43:39,741 | INFO | Daily job started — 2026-03-29 12:43:39
+2026-03-29 12:43:39,741 | INFO | ============================================================
+2026-03-29 12:43:39,741 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 12:43:39,741 | INFO | Selected post: 'post_002'
+2026-03-29 12:43:39,741 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 12:43:39,805 | INFO | Closed existing Chrome processes.
+2026-03-29 12:43:39,805 | INFO | ====== WebDriver manager ======
+2026-03-29 12:43:40,720 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:43:41,419 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:43:42,529 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 12:43:43,757 | INFO | Opening WhatsApp Web …
+2026-03-29 12:43:50,695 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 12:43:50,839 | INFO | App container loaded
+2026-03-29 12:56:27,570 | INFO | Running immediately (--now flag detected) …
+2026-03-29 12:56:27,570 | INFO | ============================================================
+2026-03-29 12:56:27,570 | INFO | Daily job started — 2026-03-29 12:56:27
+2026-03-29 12:56:27,570 | INFO | ============================================================
+2026-03-29 12:56:27,571 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 12:56:27,571 | INFO | Selected post: 'post_002'
+2026-03-29 12:56:27,571 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 12:56:27,634 | INFO | Closed existing Chrome processes.
+2026-03-29 12:56:27,635 | INFO | ====== WebDriver manager ======
+2026-03-29 12:56:28,562 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:56:29,297 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 12:56:29,942 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 12:56:31,180 | INFO | Opening WhatsApp Web …
+2026-03-29 12:56:32,097 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 12:56:32,115 | INFO | App container loaded
+2026-03-29 12:56:36,379 | INFO | WhatsApp Web loaded successfully (detected via: input[placeholder*="Search"])
+2026-03-29 12:56:36,448 | INFO | Found search box via: input[placeholder*="Search"]
+2026-03-29 12:56:49,070 | INFO | Opened group: 'Family'
+2026-03-29 12:56:49,070 | INFO | Sending image: d:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-29 12:57:26,162 | WARNING | Could not click attach button — will try direct input lookup (Strategy B).
+2026-03-29 12:57:59,188 | ERROR | Error processing group 'Family': Could not locate the file <input> element. WhatsApp Web may have changed its DOM. Open DevTools on web.whatsapp.com and inspect the attach button area.
+2026-03-29 12:58:01,453 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-29 12:58:01,454 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-29 12:58:01,455 | INFO | Daily job complete — 2026-03-29 12:58:01
+2026-03-29 12:58:01,455 | INFO | ============================================================
+2026-03-29 13:08:19,329 | INFO | Running immediately (--now flag detected) …
+2026-03-29 13:08:19,329 | INFO | ============================================================
+2026-03-29 13:08:19,329 | INFO | Daily job started — 2026-03-29 13:08:19
+2026-03-29 13:08:19,329 | INFO | ============================================================
+2026-03-29 13:08:19,329 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 13:08:19,330 | INFO | Selected post: 'post_002'
+2026-03-29 13:08:19,330 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 13:08:19,463 | INFO | Closed existing Chrome processes.
+2026-03-29 13:08:19,464 | INFO | ====== WebDriver manager ======
+2026-03-29 13:08:20,472 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 13:08:21,149 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 13:08:21,938 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 13:08:23,220 | INFO | Opening WhatsApp Web …
+2026-03-29 13:08:24,245 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 13:08:24,268 | INFO | App container loaded
+2026-03-29 13:08:31,379 | INFO | WhatsApp Web loaded successfully (detected via: input[placeholder*="Search"])
+2026-03-29 13:08:31,493 | INFO | Found search box via: input[placeholder*="Search"]
+2026-03-29 13:08:44,088 | INFO | Opened group: 'Family'
+2026-03-29 13:08:44,088 | INFO | Sending image: d:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-29 13:09:09,482 | WARNING | Could not click attach button - will try direct input lookup.
+2026-03-29 13:09:30,501 | ERROR | Error processing group 'Family': Could not locate the file <input> element. WhatsApp Web may have changed its DOM.
+2026-03-29 13:09:32,745 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-29 13:09:32,746 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-29 13:09:32,747 | INFO | Daily job complete — 2026-03-29 13:09:32
+2026-03-29 13:09:32,748 | INFO | ============================================================
+2026-03-29 13:47:20,361 | INFO | Running immediately (--now flag detected) …
+2026-03-29 13:47:20,362 | INFO | ============================================================
+2026-03-29 13:47:20,363 | INFO | Daily job started — 2026-03-29 13:47:20
+2026-03-29 13:47:20,363 | INFO | ============================================================
+2026-03-29 13:47:20,364 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 13:47:20,379 | INFO | Selected post: 'post_002'
+2026-03-29 13:47:20,393 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 13:47:20,607 | INFO | Closed existing Chrome processes.
+2026-03-29 13:47:20,608 | INFO | ====== WebDriver manager ======
+2026-03-29 13:47:23,236 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 13:47:52,732 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 13:48:41,333 | INFO | Running immediately (--now flag detected) …
+2026-03-29 13:48:41,334 | INFO | ============================================================
+2026-03-29 13:48:41,335 | INFO | Daily job started — 2026-03-29 13:48:41
+2026-03-29 13:48:41,335 | INFO | ============================================================
+2026-03-29 13:48:41,336 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 13:48:41,337 | INFO | Selected post: 'post_002'
+2026-03-29 13:48:41,338 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 13:48:41,466 | INFO | Closed existing Chrome processes.
+2026-03-29 13:48:41,467 | INFO | ====== WebDriver manager ======
+2026-03-29 13:48:43,602 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 13:49:03,896 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 13:49:07,176 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 13:49:10,493 | INFO | Opening WhatsApp Web …
+2026-03-29 13:49:12,276 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 13:49:12,732 | INFO | App container loaded
+2026-03-29 13:49:19,154 | INFO | WhatsApp Web loaded successfully (detected via: input[placeholder*="Search"])
+2026-03-29 13:49:19,209 | INFO | Found search box via: input[placeholder*="Search"]
+2026-03-29 13:49:31,736 | INFO | Opened group: 'Family'
+2026-03-29 13:49:31,737 | INFO | Sending image: D:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-29 13:49:57,550 | WARNING | Could not click attach button - will try direct input lookup.
+2026-03-29 13:50:18,802 | ERROR | Error processing group 'Family': Could not locate the file <input> element. WhatsApp Web may have changed its DOM.
+2026-03-29 13:50:21,262 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-29 13:50:21,264 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-29 13:50:21,265 | INFO | Daily job complete — 2026-03-29 13:50:21
+2026-03-29 13:50:21,266 | INFO | ============================================================
+2026-03-29 14:01:35,440 | INFO | Running immediately (--now flag detected) …
+2026-03-29 14:01:35,441 | INFO | ============================================================
+2026-03-29 14:01:35,441 | INFO | Daily job started — 2026-03-29 14:01:35
+2026-03-29 14:01:35,441 | INFO | ============================================================
+2026-03-29 14:01:35,442 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 14:01:35,443 | INFO | Selected post: 'post_002'
+2026-03-29 14:01:35,443 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 14:01:35,594 | INFO | Closed existing Chrome processes.
+2026-03-29 14:01:35,595 | INFO | ====== WebDriver manager ======
+2026-03-29 14:01:39,807 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 14:01:43,282 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 14:02:33,777 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 14:02:36,252 | INFO | Opening WhatsApp Web …
+2026-03-29 14:03:12,948 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 14:03:13,616 | INFO | App container loaded
+2026-03-29 14:06:00,875 | INFO | Running immediately (--now flag detected) …
+2026-03-29 14:06:00,875 | INFO | ============================================================
+2026-03-29 14:06:00,875 | INFO | Daily job started — 2026-03-29 14:06:00
+2026-03-29 14:06:00,875 | INFO | ============================================================
+2026-03-29 14:06:00,876 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 14:06:00,877 | INFO | Selected post: 'post_002'
+2026-03-29 14:06:00,877 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 14:06:01,006 | INFO | Closed existing Chrome processes.
+2026-03-29 14:06:01,007 | INFO | ====== WebDriver manager ======
+2026-03-29 14:06:03,158 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 14:06:04,451 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 14:06:05,785 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 14:06:08,033 | INFO | Opening WhatsApp Web …
+2026-03-29 14:06:09,801 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 14:06:10,011 | INFO | App container loaded
+2026-03-29 14:06:17,136 | INFO | WhatsApp Web loaded successfully (detected via: input[placeholder*="Search"])
+2026-03-29 14:06:17,357 | INFO | Found search box via: input[placeholder*="Search"]
+2026-03-29 14:06:30,121 | INFO | Opened group: 'Family'
+2026-03-29 14:06:30,122 | INFO | Sending image: d:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-29 14:07:18,089 | WARNING | Could not click attach button - will try direct input lookup.
+2026-03-29 14:07:22,714 | INFO | Debug: Page source saved to d:\WORK\whats group upload\attach_debug_source.html
+2026-03-29 14:07:22,896 | INFO | Debug: Screenshot saved to d:\WORK\whats group upload\attach_debug.png
+2026-03-29 14:08:16,696 | INFO | Debug: Found 1 total input elements, searching for file type...
+2026-03-29 14:08:16,756 | INFO |   Input: type=text, accept=
+2026-03-29 14:08:16,849 | INFO | Debug: Found 15 button elements
+2026-03-29 14:08:16,960 | INFO |   Button 0: aria-label='Chats', data-testid='None'
+2026-03-29 14:08:16,981 | INFO |   Button 1: aria-label='Updates in Status', data-testid='None'
+2026-03-29 14:08:17,006 | INFO |   Button 2: aria-label='Channels', data-testid='None'
+2026-03-29 14:08:17,039 | INFO |   Button 3: aria-label='Communities', data-testid='None'
+2026-03-29 14:08:17,088 | INFO |   Button 4: aria-label='Tools', data-testid='None'
+2026-03-29 14:08:17,138 | INFO |   Button 5: aria-label='Media', data-testid='None'
+2026-03-29 14:08:17,189 | INFO |   Button 6: aria-label='Settings', data-testid='None'
+2026-03-29 14:08:17,241 | INFO |   Button 7: aria-label='Profile', data-testid='None'
+2026-03-29 14:08:17,291 | INFO |   Button 8: aria-label='New chat', data-testid='None'
+2026-03-29 14:08:17,342 | INFO |   Button 9: aria-label='Menu', data-testid='None'
+2026-03-29 14:08:17,391 | INFO |   Button 10: aria-label='End icon button', data-testid='None'
+2026-03-29 14:08:17,442 | INFO |   Button 11: aria-label='None', data-testid='None'
+2026-03-29 14:08:17,495 | INFO |   Button 12: aria-label='None', data-testid='None'
+2026-03-29 14:08:17,544 | INFO |   Button 13: aria-label='None', data-testid='None'
+2026-03-29 14:08:17,594 | INFO |   Button 14: aria-label='None', data-testid='None'
+2026-03-29 14:08:17,595 | ERROR | ✗ Error sending image: Could not locate the file <input> element. WhatsApp Web may have changed its DOM. Check debug files: attach_debug_source.html and attach_debug.png
+2026-03-29 14:08:17,595 | ERROR | Error processing group 'Family': Could not locate the file <input> element. WhatsApp Web may have changed its DOM. Check debug files: attach_debug_source.html and attach_debug.png
+2026-03-29 14:08:20,017 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-29 14:08:20,018 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-29 14:08:20,019 | INFO | Daily job complete — 2026-03-29 14:08:20
+2026-03-29 14:08:20,019 | INFO | ============================================================
+2026-03-29 14:10:50,783 | INFO | Running immediately (--now flag detected) …
+2026-03-29 14:10:50,783 | INFO | ============================================================
+2026-03-29 14:10:50,784 | INFO | Daily job started — 2026-03-29 14:10:50
+2026-03-29 14:10:50,784 | INFO | ============================================================
+2026-03-29 14:10:50,784 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 14:10:50,785 | INFO | Selected post: 'post_002'
+2026-03-29 14:10:50,786 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 14:10:50,917 | INFO | Closed existing Chrome processes.
+2026-03-29 14:10:50,918 | INFO | ====== WebDriver manager ======
+2026-03-29 14:10:52,757 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 14:10:53,912 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 14:10:55,113 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 14:10:57,307 | INFO | Opening WhatsApp Web …
+2026-03-29 14:10:59,290 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 14:10:59,490 | INFO | App container loaded
+2026-03-29 14:11:05,423 | INFO | WhatsApp Web loaded successfully (detected via: input[placeholder*="Search"])
+2026-03-29 14:11:05,496 | INFO | Found search box via: input[placeholder*="Search"]
+2026-03-29 14:11:18,386 | INFO | Opened group: 'Family'
+2026-03-29 14:11:18,386 | INFO | Sending image: d:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-29 14:11:56,548 | WARNING | Could not click attach button with any known selector
+2026-03-29 14:11:56,548 | INFO | Trying keyboard shortcuts to trigger file upload...
+2026-03-29 14:11:59,777 | INFO | Attempting to inject file input element...
+2026-03-29 14:12:00,362 | INFO | ✓ Successfully injected file input element
+2026-03-29 14:12:00,462 | INFO | ✓ File path injected into input — waiting for preview …
+2026-03-29 14:13:21,814 | ERROR | ✗ Failed to send image. Screenshot saved to: d:\WORK\whats group upload\send_error_screenshot.png
+2026-03-29 14:13:21,966 | ERROR | Page source saved to: d:\WORK\whats group upload\send_error_source.html
+2026-03-29 14:13:21,967 | ERROR | ✗ Error sending image: Send button error: Could not locate the Send button after image preview loaded. Check DevTools on web.whatsapp.com for the current selector. The image preview may not have loaded properly.
+2026-03-29 14:13:21,967 | ERROR | Error processing group 'Family': Send button error: Could not locate the Send button after image preview loaded. Check DevTools on web.whatsapp.com for the current selector. The image preview may not have loaded properly.
+2026-03-29 14:13:24,296 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-29 14:13:24,297 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-29 14:13:24,298 | INFO | Daily job complete — 2026-03-29 14:13:24
+2026-03-29 14:13:24,298 | INFO | ============================================================
+2026-03-29 14:17:59,764 | INFO | Running immediately (--now flag detected) …
+2026-03-29 14:17:59,765 | INFO | ============================================================
+2026-03-29 14:17:59,765 | INFO | Daily job started — 2026-03-29 14:17:59
+2026-03-29 14:17:59,765 | INFO | ============================================================
+2026-03-29 14:17:59,766 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 14:17:59,766 | INFO | Selected post: 'post_002'
+2026-03-29 14:17:59,767 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 14:17:59,901 | INFO | Closed existing Chrome processes.
+2026-03-29 14:17:59,902 | INFO | ====== WebDriver manager ======
+2026-03-29 14:18:01,942 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 14:18:06,249 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 14:18:12,415 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 14:18:14,447 | INFO | Opening WhatsApp Web …
+2026-03-29 14:18:17,632 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 14:18:17,661 | INFO | App container loaded
+2026-03-29 14:18:30,710 | INFO | WhatsApp Web loaded successfully (detected via: input[placeholder*="Search"])
+2026-03-29 14:18:30,933 | INFO | Found search box via: input[placeholder*="Search"]
+2026-03-29 14:18:43,936 | INFO | Opened group: 'Family'
+2026-03-29 14:18:43,937 | INFO | Sending image: d:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-29 14:19:24,917 | WARNING | Could not click attach button with any known selector
+2026-03-29 14:19:24,918 | INFO | Trying to click any button in footer area...
+2026-03-29 14:19:24,971 | INFO | Found 0 buttons in footer
+2026-03-29 14:19:24,971 | INFO | Trying keyboard shortcuts to trigger file upload...
+2026-03-29 14:19:28,231 | INFO | Attempting to inject file input element...
+2026-03-29 14:19:28,817 | INFO | ✓ Successfully injected file input element
+2026-03-29 14:19:28,915 | INFO | ✓ File path injected into input — waiting for preview …
+2026-03-29 14:44:34,321 | INFO | Running immediately (--now flag detected) …
+2026-03-29 14:44:34,321 | INFO | ============================================================
+2026-03-29 14:44:34,321 | INFO | Daily job started (Undetected mode) — 2026-03-29 14:44:34
+2026-03-29 14:44:34,321 | INFO | ============================================================
+2026-03-29 14:44:34,321 | INFO | ✓ Valid post: post_002
+2026-03-29 14:44:34,321 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 14:44:34,322 | INFO | Selected post: 'post_002'
+2026-03-29 14:44:34,322 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 14:44:46,802 | INFO | patching driver executable C:\Users\Ubaid Hafeez\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-03-29 14:45:34,148 | INFO | Running immediately (--now flag detected) …
+2026-03-29 14:45:34,149 | INFO | ============================================================
+2026-03-29 14:45:34,149 | INFO | Daily job started (Undetected mode) — 2026-03-29 14:45:34
+2026-03-29 14:45:34,149 | INFO | ============================================================
+2026-03-29 14:45:34,150 | INFO | ✓ Valid post: post_002
+2026-03-29 14:45:34,150 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 14:45:34,150 | INFO | Selected post: 'post_002'
+2026-03-29 14:45:34,150 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 14:45:45,399 | INFO | patching driver executable C:\Users\Ubaid Hafeez\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-03-29 14:46:46,273 | INFO | Running immediately (--now flag detected) …
+2026-03-29 14:46:46,273 | INFO | ============================================================
+2026-03-29 14:46:46,273 | INFO | Daily job started (Undetected mode) — 2026-03-29 14:46:46
+2026-03-29 14:46:46,274 | INFO | ============================================================
+2026-03-29 14:46:46,274 | INFO | ✓ Valid post: post_002
+2026-03-29 14:46:46,274 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 14:46:46,274 | INFO | Selected post: 'post_002'
+2026-03-29 14:46:46,274 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 14:46:52,992 | INFO | patching driver executable C:\Users\Ubaid Hafeez\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-03-29 15:00:32,730 | ERROR | ============================================================
+2026-03-29 15:00:32,730 | ERROR | API NOT CONFIGURED!
+2026-03-29 15:00:32,731 | ERROR | ============================================================
+2026-03-29 15:00:32,731 | ERROR | To use the API approach, you need to:
+2026-03-29 15:00:32,731 | ERROR | 1. Sign up for a WhatsApp Gateway service:
+2026-03-29 15:00:32,731 | ERROR |    - WhatsMate: https://www.whatsmate.com/
+2026-03-29 15:00:32,731 | ERROR |    - UltraMsg: https://ultramsg.com/
+2026-03-29 15:00:32,731 | ERROR |    - Twilio: https://www.twilio.com/whatsapp
+2026-03-29 15:00:32,731 | ERROR | 2. Get your API token and instance ID
+2026-03-29 15:00:32,731 | ERROR | 3. Update API_TOKEN and INSTANCE_ID in this script
+2026-03-29 15:00:32,731 | ERROR | ============================================================
+2026-03-29 15:00:32,731 | ERROR | 
+Falling back to browser automation...
+2026-03-29 15:00:37,586 | INFO | ============================================================
+2026-03-29 15:00:37,586 | INFO | Daily job started — 2026-03-29 15:00:37
+2026-03-29 15:00:37,586 | INFO | ============================================================
+2026-03-29 15:00:37,586 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 15:00:37,586 | INFO | Selected post: 'post_002'
+2026-03-29 15:00:37,587 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 15:00:37,667 | INFO | Closed existing Chrome processes.
+2026-03-29 15:00:37,668 | INFO | ====== WebDriver manager ======
+2026-03-29 15:00:38,862 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 15:00:39,567 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 15:00:40,252 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 15:00:41,476 | INFO | Opening WhatsApp Web …
+2026-03-29 15:00:42,293 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 15:00:42,433 | INFO | App container loaded
+2026-03-29 15:00:46,386 | INFO | WhatsApp Web loaded successfully (detected via: input[placeholder*="Search"])
+2026-03-29 15:00:46,455 | INFO | Found search box via: input[placeholder*="Search"]
+2026-03-29 15:00:59,081 | INFO | Opened group: 'Family'
+2026-03-29 15:00:59,082 | INFO | Sending image: d:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-29 15:02:32,539 | INFO | Running immediately (--now flag detected) …
+2026-03-29 15:02:32,540 | INFO | ============================================================
+2026-03-29 15:02:32,540 | INFO | Daily job started (API mode) — 2026-03-29 15:02:32
+2026-03-29 15:02:32,540 | INFO | ============================================================
+2026-03-29 15:02:32,540 | INFO | ✓ Valid post: post_002
+2026-03-29 15:02:32,540 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 15:02:32,541 | INFO | Selected post: 'post_002'
+2026-03-29 15:02:32,541 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 15:02:32,550 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 15:02:32,550 | INFO | Sending to API: Family - urdu.jpg
+2026-03-29 15:02:35,685 | ERROR | ✗ API error: {'error': 'Wrong token. Please provide token as a GET parameter.'}
+2026-03-29 15:02:35,693 | WARNING | ⚠️ Urdu image failed for 'Family'
+2026-03-29 15:02:35,693 | ERROR | ❌ Post 'post_002' was NOT sent to any group
+2026-03-29 15:02:35,694 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-29 15:02:35,694 | INFO | Daily job complete — 2026-03-29 15:02:35
+2026-03-29 15:02:35,694 | INFO | ============================================================
+2026-03-29 15:04:01,550 | INFO | Running immediately (--now flag detected) …
+2026-03-29 15:04:01,550 | INFO | ============================================================
+2026-03-29 15:04:01,550 | INFO | Daily job started (API mode) — 2026-03-29 15:04:01
+2026-03-29 15:04:01,550 | INFO | ============================================================
+2026-03-29 15:04:01,551 | INFO | ✓ Valid post: post_002
+2026-03-29 15:04:01,551 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 15:04:01,552 | INFO | Selected post: 'post_002'
+2026-03-29 15:04:01,552 | INFO | Loaded 1 group(s): ['Family']
+2026-03-29 15:04:01,554 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 15:04:01,554 | INFO | Sending to UltraMsg API: Family - urdu.jpg
+2026-03-29 15:04:03,968 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-29 15:04:03,970 | WARNING | ⚠️ Urdu image failed for 'Family'
+2026-03-29 15:04:03,970 | ERROR | ❌ Post 'post_002' was NOT sent to any group
+2026-03-29 15:04:03,970 | WARNING | ⚠️  Failed groups: ['Family']
+2026-03-29 15:04:03,970 | INFO | Daily job complete — 2026-03-29 15:04:03
+2026-03-29 15:04:03,970 | INFO | ============================================================
+2026-03-29 15:59:20,192 | INFO | Running immediately (--now flag detected) …
+2026-03-29 15:59:20,192 | INFO | ============================================================
+2026-03-29 15:59:20,193 | INFO | Daily job started — 2026-03-29 15:59:20
+2026-03-29 15:59:20,193 | INFO | ============================================================
+2026-03-29 15:59:20,193 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 15:59:20,194 | INFO | Selected post: 'post_002'
+2026-03-29 15:59:20,194 | INFO | Loaded 1 group(s): ['Ubaid']
+2026-03-29 15:59:20,298 | INFO | Closed existing Chrome processes.
+2026-03-29 15:59:20,300 | INFO | ====== WebDriver manager ======
+2026-03-29 15:59:21,285 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 15:59:22,172 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-29 15:59:24,888 | INFO | Driver [C:\Users\Ubaid Hafeez\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-03-29 15:59:26,135 | INFO | Opening WhatsApp Web …
+2026-03-29 15:59:31,498 | INFO | Waiting up to 60s for WhatsApp to load (scan QR if needed) …
+2026-03-29 15:59:31,648 | INFO | App container loaded
+2026-03-29 15:59:43,614 | INFO | WhatsApp Web loaded successfully (detected via: input[placeholder*="Search"])
+2026-03-29 15:59:43,666 | INFO | Found search box via: input[placeholder*="Search"]
+2026-03-29 15:59:56,209 | INFO | Opened group: 'Ubaid'
+2026-03-29 15:59:56,210 | INFO | Sending image: D:\WORK\whats group upload\islamic_posts\post_002\urdu.jpg
+2026-03-29 16:00:34,760 | WARNING | Could not click attach button with any known selector
+2026-03-29 16:00:34,761 | INFO | Trying to click any button in footer area...
+2026-03-29 16:00:34,773 | INFO | Found 0 buttons in footer
+2026-03-29 16:00:34,773 | INFO | Trying keyboard shortcuts to trigger file upload...
+2026-03-29 16:00:37,875 | INFO | Attempting to inject file input element...
+2026-03-29 16:00:38,425 | INFO | ✓ Successfully injected file input element
+2026-03-29 16:00:38,451 | INFO | ✓ File path injected into input — waiting for preview …
+2026-03-29 16:01:29,860 | ERROR | ✗ Error sending image: Could not locate the Send button after image preview loaded. Check DevTools on web.whatsapp.com for the current selector. The image preview may not have loaded properly.
+2026-03-29 16:01:29,861 | ERROR | Error processing group 'Ubaid': Could not locate the Send button after image preview loaded. Check DevTools on web.whatsapp.com for the current selector. The image preview may not have loaded properly.
+2026-03-29 16:01:31,901 | ERROR | Post 'post_002' was NOT sent to any group.
+2026-03-29 16:01:31,902 | WARNING | ⚠️  Failed groups: ['Ubaid']
+2026-03-29 16:01:31,903 | INFO | Daily job complete — 2026-03-29 16:01:31
+2026-03-29 16:01:31,903 | INFO | ============================================================
+2026-03-29 16:29:33,983 | INFO | Running immediately (--now flag detected) …
+2026-03-29 16:29:33,983 | INFO | ============================================================
+2026-03-29 16:29:33,984 | INFO | Daily job started (API mode) — 2026-03-29 16:29:33
+2026-03-29 16:29:33,984 | INFO | ============================================================
+2026-03-29 16:29:33,984 | INFO | ✓ Valid post: post_002
+2026-03-29 16:29:33,985 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 16:29:33,985 | INFO | Selected post: 'post_002'
+2026-03-29 16:29:33,986 | INFO | Loaded 16 group(s): ['# ============================================', '# WHATSAPP RECIPIENTS', '# ============================================', '# IMPORTANT: Replace with YOUR actual phone number or Group ID', '#', '# For Personal WhatsApp (use YOUR number):', '# Format: 923XXXXXXXXX (Pakistan number without +)', '# Example: 923001234567', '#', '# For WhatsApp Group (get ID from UltraMsg dashboard):', '# Format: xxx-xxx@g.us', '# Example: 123456789-123456@g.us', '#', '# Get Group ID: https://ultramsg.com -> instance167704 -> Groups tab', '# ============================================', '923001234567']
+2026-03-29 16:29:33,987 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:29:33,987 | INFO | Sending to UltraMsg API: # ============================================ (as: # ============================================) - urdu.jpg
+2026-03-29 16:29:43,311 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-29 16:29:43,313 | WARNING | ⚠️ Urdu image failed for '# ============================================'
+2026-03-29 16:29:43,314 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:29:43,315 | INFO | Sending to UltraMsg API: # WHATSAPP RECIPIENTS (as: # WHATSAPP RECIPIENTS) - urdu.jpg
+2026-03-29 16:29:50,624 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-29 16:29:50,626 | WARNING | ⚠️ Urdu image failed for '# WHATSAPP RECIPIENTS'
+2026-03-29 16:29:50,627 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:29:50,628 | INFO | Sending to UltraMsg API: # ============================================ (as: # ============================================) - urdu.jpg
+2026-03-29 16:29:59,720 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-29 16:29:59,726 | WARNING | ⚠️ Urdu image failed for '# ============================================'
+2026-03-29 16:29:59,730 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:29:59,731 | INFO | Sending to UltraMsg API: # IMPORTANT: Replace with YOUR actual phone number or Group ID (as: # IMPORTANT: Replace with YOUR actual phone number or Group ID) - urdu.jpg
+2026-03-29 16:30:04,767 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-29 16:30:04,771 | WARNING | ⚠️ Urdu image failed for '# IMPORTANT: Replace with YOUR actual phone number or Group ID'
+2026-03-29 16:30:04,773 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:30:04,773 | INFO | Sending to UltraMsg API: # (as: #) - urdu.jpg
+2026-03-29 16:30:07,200 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-29 16:30:07,207 | WARNING | ⚠️ Urdu image failed for '#'
+2026-03-29 16:30:07,211 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:30:07,212 | INFO | Sending to UltraMsg API: # For Personal WhatsApp (use YOUR number): (as: # For Personal WhatsApp (use YOUR number):) - urdu.jpg
+2026-03-29 16:30:09,732 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-29 16:30:09,739 | WARNING | ⚠️ Urdu image failed for '# For Personal WhatsApp (use YOUR number):'
+2026-03-29 16:30:09,744 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:30:09,746 | INFO | Sending to UltraMsg API: # Format: 923XXXXXXXXX (Pakistan number without +) (as: # Format: 923XXXXXXXXX (Pakistan number without +)) - urdu.jpg
+2026-03-29 16:30:12,043 | ERROR | ✗ API error: {'error': [{'to': "Wrong 'to' format for element (923). 'to' format : 14155552671@c.us or 14155552671-441234567890@g.us"}]}
+2026-03-29 16:30:12,047 | WARNING | ⚠️ Urdu image failed for '# Format: 923XXXXXXXXX (Pakistan number without +)'
+2026-03-29 16:30:12,049 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:30:12,050 | INFO | Sending to UltraMsg API: # Example: 923001234567 (as: # Example: 923001234567) - urdu.jpg
+2026-03-29 16:30:17,069 | ERROR | ✗ API error: {'sent': 'true', 'message': 'ok', 'id': 2}
+2026-03-29 16:30:17,074 | WARNING | ⚠️ Urdu image failed for '# Example: 923001234567'
+2026-03-29 16:30:17,075 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:30:17,075 | INFO | Sending to UltraMsg API: # (as: #) - urdu.jpg
+2026-03-29 16:30:19,360 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-29 16:30:19,365 | WARNING | ⚠️ Urdu image failed for '#'
+2026-03-29 16:30:19,366 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:30:19,366 | INFO | Sending to UltraMsg API: # For WhatsApp Group (get ID from UltraMsg dashboard): (as: # For WhatsApp Group (get ID from UltraMsg dashboard):) - urdu.jpg
+2026-03-29 16:30:39,515 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-29 16:30:39,519 | WARNING | ⚠️ Urdu image failed for '# For WhatsApp Group (get ID from UltraMsg dashboard):'
+2026-03-29 16:30:39,521 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:30:39,521 | INFO | Sending to UltraMsg API: # Format: xxx-xxx@g.us (as: # Format: xxx-xxx@g.us) - urdu.jpg
+2026-03-29 16:30:46,176 | INFO | Running immediately (--now flag detected) …
+2026-03-29 16:30:46,176 | INFO | ============================================================
+2026-03-29 16:30:46,176 | INFO | Daily job started (API mode) — 2026-03-29 16:30:46
+2026-03-29 16:30:46,176 | INFO | ============================================================
+2026-03-29 16:30:46,177 | INFO | ✓ Valid post: post_002
+2026-03-29 16:30:46,177 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 16:30:46,178 | INFO | Selected post: 'post_002'
+2026-03-29 16:30:46,178 | INFO | Loaded 1 group(s): ['923140839915']
+2026-03-29 16:30:46,179 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:30:46,180 | INFO | Sending to UltraMsg API: 923140839915 (as: 923140839915@s.whatsapp.net) - urdu.jpg
+2026-03-29 16:30:54,290 | ERROR | ✗ API error: {'sent': 'true', 'message': 'ok', 'id': 3}
+2026-03-29 16:30:54,294 | WARNING | ⚠️ Urdu image failed for '923140839915'
+2026-03-29 16:30:54,295 | ERROR | ❌ Post 'post_002' was NOT sent to any group
+2026-03-29 16:30:54,295 | WARNING | ⚠️  Failed groups: ['923140839915']
+2026-03-29 16:30:54,296 | INFO | Daily job complete — 2026-03-29 16:30:54
+2026-03-29 16:30:54,297 | INFO | ============================================================
+2026-03-29 16:38:34,580 | INFO | Running immediately (--now flag detected) …
+2026-03-29 16:38:34,580 | INFO | ============================================================
+2026-03-29 16:38:34,580 | INFO | Daily job started (API mode) — 2026-03-29 16:38:34
+2026-03-29 16:38:34,580 | INFO | ============================================================
+2026-03-29 16:38:34,580 | INFO | ✓ Valid post: post_002
+2026-03-29 16:38:34,580 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-29 16:38:34,580 | INFO | Selected post: 'post_002'
+2026-03-29 16:38:34,581 | INFO | Loaded 1 group(s): ['923140839915']
+2026-03-29 16:38:34,582 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-29 16:38:34,582 | INFO | Sending to UltraMsg API: 923140839915 (as: 923140839915@s.whatsapp.net) - urdu.jpg
+2026-03-29 16:38:43,809 | INFO | ✓ API sent successfully to '923140839915'
+2026-03-29 16:38:43,828 | INFO | ✓ Encoded image: eng.jpg (120680 chars)
+2026-03-29 16:38:43,828 | INFO | Sending to UltraMsg API: 923140839915 (as: 923140839915@s.whatsapp.net) - eng.jpg
+2026-03-29 16:38:48,158 | INFO | ✓ API sent successfully to '923140839915'
+2026-03-29 16:38:48,160 | INFO | ✓ Both images sent to '923140839915'
+2026-03-29 16:38:48,160 | INFO | ✓ Post 'post_002' marked as sent.
+2026-03-29 16:38:48,161 | INFO | ✅ Post 'post_002' sent to 1 group(s)
+2026-03-29 16:38:48,161 | INFO | Daily job complete — 2026-03-29 16:38:48
+2026-03-29 16:38:48,161 | INFO | ============================================================
+2026-03-30 15:21:45,415 | INFO | Running immediately (--now flag detected) …
+2026-03-30 15:21:45,415 | INFO | ============================================================
+2026-03-30 15:21:45,415 | INFO | Daily job started (API mode) — 2026-03-30 15:21:45
+2026-03-30 15:21:45,415 | INFO | ============================================================
+2026-03-30 15:21:45,415 | WARNING | Skipping 'post 3' — missing urdu.jpg or eng.jpg
+2026-03-30 15:21:45,415 | WARNING | Skipping 'post 4' — missing urdu.jpg or eng.jpg
+2026-03-30 15:21:45,416 | WARNING | Skipping 'post 5' — missing urdu.jpg or eng.jpg
+2026-03-30 15:21:45,416 | WARNING | Skipping 'post 6' — missing urdu.jpg or eng.jpg
+2026-03-30 15:21:45,416 | INFO | ✓ Valid post: post_002
+2026-03-30 15:21:45,416 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-30 15:21:45,422 | INFO | All posts sent! Add new folders to continue.
+2026-03-30 15:22:13,475 | INFO | Running immediately (--now flag detected) …
+2026-03-30 15:22:13,475 | INFO | ============================================================
+2026-03-30 15:22:13,475 | INFO | Daily job started (API mode) — 2026-03-30 15:22:13
+2026-03-30 15:22:13,476 | INFO | ============================================================
+2026-03-30 15:22:13,476 | WARNING | Skipping 'post 3' — missing urdu.jpg or eng.jpg
+2026-03-30 15:22:13,476 | WARNING | Skipping 'post 4' — missing urdu.jpg or eng.jpg
+2026-03-30 15:22:13,476 | WARNING | Skipping 'post 5' — missing urdu.jpg or eng.jpg
+2026-03-30 15:22:13,476 | WARNING | Skipping 'post 6' — missing urdu.jpg or eng.jpg
+2026-03-30 15:22:13,476 | INFO | ✓ Valid post: post_002
+2026-03-30 15:22:13,476 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-30 15:22:13,477 | INFO | All posts sent! Add new folders to continue.
+2026-03-30 15:41:25,775 | INFO | Running immediately (--now flag detected) …
+2026-03-30 15:41:25,775 | INFO | ============================================================
+2026-03-30 15:41:25,775 | INFO | Daily job started (API mode) — 2026-03-30 15:41:25
+2026-03-30 15:41:25,776 | INFO | ============================================================
+2026-03-30 15:41:25,776 | WARNING | Skipping 'post 3' — missing urdu.jpg or eng.jpg
+2026-03-30 15:41:25,776 | WARNING | Skipping 'post 4' — missing urdu.jpg or eng.jpg
+2026-03-30 15:41:25,776 | WARNING | Skipping 'post 5' — missing urdu.jpg or eng.jpg
+2026-03-30 15:41:25,776 | WARNING | Skipping 'post 6' — missing urdu.jpg or eng.jpg
+2026-03-30 15:41:25,776 | INFO | ✓ Valid post: post_002
+2026-03-30 15:41:25,776 | INFO | Detected 1 valid post(s): ['post_002']
+2026-03-30 15:41:25,783 | INFO | Selected post: 'post_002'
+2026-03-30 15:41:25,790 | INFO | Loaded 15 group(s): ['# ============================================', '# WHATSAPP RECIPIENTS - MULTIPLE GROUPS/NUMBERS', '# ============================================', '# Add multiple phone numbers or Group IDs (one per line)', '# The bot will send to ALL numbers/groups listed here', '#', '# For Personal WhatsApp:', '# 923XXXXXXXXX', '#', '# For WhatsApp Group (get ID from UltraMsg dashboard):', '# xxx-xxx@g.us', '#', '# Get Group ID: https://ultramsg.com -> instance167704 -> Groups tab', '# ============================================', '923140839915']
+2026-03-30 15:41:25,798 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:25,798 | INFO | Sending to UltraMsg API: # ============================================ (as: # ============================================) - urdu.jpg
+2026-03-30 15:41:28,179 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:28,183 | WARNING | ⚠️ Urdu image failed for '# ============================================'
+2026-03-30 15:41:28,185 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:28,185 | INFO | Sending to UltraMsg API: # WHATSAPP RECIPIENTS - MULTIPLE GROUPS/NUMBERS (as: # WHATSAPP RECIPIENTS - MULTIPLE GROUPS/NUMBERS) - urdu.jpg
+2026-03-30 15:41:31,994 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:31,999 | WARNING | ⚠️ Urdu image failed for '# WHATSAPP RECIPIENTS - MULTIPLE GROUPS/NUMBERS'
+2026-03-30 15:41:32,001 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:32,001 | INFO | Sending to UltraMsg API: # ============================================ (as: # ============================================) - urdu.jpg
+2026-03-30 15:41:33,881 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:33,885 | WARNING | ⚠️ Urdu image failed for '# ============================================'
+2026-03-30 15:41:33,887 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:33,888 | INFO | Sending to UltraMsg API: # Add multiple phone numbers or Group IDs (one per line) (as: # Add multiple phone numbers or Group IDs (one per line)) - urdu.jpg
+2026-03-30 15:41:36,176 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:36,182 | WARNING | ⚠️ Urdu image failed for '# Add multiple phone numbers or Group IDs (one per line)'
+2026-03-30 15:41:36,184 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:36,184 | INFO | Sending to UltraMsg API: # The bot will send to ALL numbers/groups listed here (as: # The bot will send to ALL numbers/groups listed here) - urdu.jpg
+2026-03-30 15:41:38,252 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:38,254 | WARNING | ⚠️ Urdu image failed for '# The bot will send to ALL numbers/groups listed here'
+2026-03-30 15:41:38,255 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:38,255 | INFO | Sending to UltraMsg API: # (as: #) - urdu.jpg
+2026-03-30 15:41:40,119 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:40,123 | WARNING | ⚠️ Urdu image failed for '#'
+2026-03-30 15:41:40,126 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:40,126 | INFO | Sending to UltraMsg API: # For Personal WhatsApp: (as: # For Personal WhatsApp:) - urdu.jpg
+2026-03-30 15:41:42,046 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:42,049 | WARNING | ⚠️ Urdu image failed for '# For Personal WhatsApp:'
+2026-03-30 15:41:42,051 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:42,051 | INFO | Sending to UltraMsg API: # 923XXXXXXXXX (as: # 923XXXXXXXXX) - urdu.jpg
+2026-03-30 15:41:43,981 | ERROR | ✗ API error: {'error': [{'to': "Wrong 'to' format for element (923). 'to' format : 14155552671@c.us or 14155552671-441234567890@g.us"}]}
+2026-03-30 15:41:43,983 | WARNING | ⚠️ Urdu image failed for '# 923XXXXXXXXX'
+2026-03-30 15:41:43,985 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:43,985 | INFO | Sending to UltraMsg API: # (as: #) - urdu.jpg
+2026-03-30 15:41:45,954 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:45,958 | WARNING | ⚠️ Urdu image failed for '#'
+2026-03-30 15:41:45,960 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:45,960 | INFO | Sending to UltraMsg API: # For WhatsApp Group (get ID from UltraMsg dashboard): (as: # For WhatsApp Group (get ID from UltraMsg dashboard):) - urdu.jpg
+2026-03-30 15:41:47,832 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:47,835 | WARNING | ⚠️ Urdu image failed for '# For WhatsApp Group (get ID from UltraMsg dashboard):'
+2026-03-30 15:41:47,838 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:47,838 | INFO | Sending to UltraMsg API: # xxx-xxx@g.us (as: # xxx-xxx@g.us) - urdu.jpg
+2026-03-30 15:41:50,030 | ERROR | ✗ API error: {'error': [{'to': "Wrong 'to' format for element (-@g.us). 'to' format : 14155552671@c.us or 14155552671-441234567890@g.us"}]}
+2026-03-30 15:41:50,032 | WARNING | ⚠️ Urdu image failed for '# xxx-xxx@g.us'
+2026-03-30 15:41:50,032 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:50,033 | INFO | Sending to UltraMsg API: # (as: #) - urdu.jpg
+2026-03-30 15:41:52,394 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:52,398 | WARNING | ⚠️ Urdu image failed for '#'
+2026-03-30 15:41:52,400 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:52,400 | INFO | Sending to UltraMsg API: # Get Group ID: https://ultramsg.com -> instance167704 -> Groups tab (as: # Get Group ID: https://ultramsg.com -> instance167704 -> Groups tab) - urdu.jpg
+2026-03-30 15:41:54,499 | ERROR | ✗ API error: {'error': [{'to': "Wrong 'to' format for element (167704). 'to' format : 14155552671@c.us or 14155552671-441234567890@g.us"}]}
+2026-03-30 15:41:54,505 | WARNING | ⚠️ Urdu image failed for '# Get Group ID: https://ultramsg.com -> instance167704 -> Groups tab'
+2026-03-30 15:41:54,508 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:54,508 | INFO | Sending to UltraMsg API: # ============================================ (as: # ============================================) - urdu.jpg
+2026-03-30 15:41:57,010 | ERROR | ✗ API error: {'error': [{'to': 'is required'}]}
+2026-03-30 15:41:57,013 | WARNING | ⚠️ Urdu image failed for '# ============================================'
+2026-03-30 15:41:57,015 | INFO | ✓ Encoded image: urdu.jpg (160124 chars)
+2026-03-30 15:41:57,015 | INFO | Sending to UltraMsg API: 923140839915 (as: 923140839915@s.whatsapp.net) - urdu.jpg
+2026-03-30 15:41:59,457 | INFO | ✓ API sent successfully to '923140839915'
+2026-03-30 15:41:59,500 | INFO | ✓ Encoded image: eng.jpg (120680 chars)
+2026-03-30 15:41:59,500 | INFO | Sending to UltraMsg API: 923140839915 (as: 923140839915@s.whatsapp.net) - eng.jpg
+2026-03-30 15:42:01,706 | INFO | ✓ API sent successfully to '923140839915'
+2026-03-30 15:42:01,708 | INFO | ✓ Both images sent to '923140839915'
+2026-03-30 15:42:01,709 | INFO | ✓ Post 'post_002' marked as sent.
+2026-03-30 15:42:01,710 | INFO | ✓ Folder renamed: 'post_002' → 'sent_post_002'
+2026-03-30 15:42:01,710 | INFO | ✅ Post 'post_002' sent to 1 group(s)
+2026-03-30 15:42:01,711 | WARNING | Skipping 'post 3' — missing urdu.jpg or eng.jpg
+2026-03-30 15:42:01,711 | WARNING | Skipping 'post 4' — missing urdu.jpg or eng.jpg
+2026-03-30 15:42:01,711 | WARNING | Skipping 'post 5' — missing urdu.jpg or eng.jpg
+2026-03-30 15:42:01,712 | WARNING | Skipping 'post 6' — missing urdu.jpg or eng.jpg
+2026-03-30 15:42:01,712 | INFO | ✓ Valid post: sent_post_002
+2026-03-30 15:42:01,712 | INFO | Detected 1 valid post(s): ['sent_post_002']
+2026-03-30 15:42:01,712 | INFO | ➡️  Next unsent post: 'sent_post_002'
+2026-03-30 15:42:01,712 | INFO | ➡️  Sending next post automatically...
+2026-03-30 16:01:04,267 | INFO | Running immediately (--now flag detected) …
+2026-03-30 16:01:04,267 | INFO | ============================================================
+2026-03-30 16:01:04,267 | INFO | Daily job started (API mode) — 2026-03-30 16:01:04
+2026-03-30 16:01:04,267 | INFO | ============================================================
+2026-03-30 16:01:04,268 | WARNING | Skipping 'post 3' — missing urdu.jpg or eng.jpg
+2026-03-30 16:01:04,268 | WARNING | Skipping 'post 4' — missing urdu.jpg or eng.jpg
+2026-03-30 16:01:04,268 | WARNING | Skipping 'post 5' — missing urdu.jpg or eng.jpg
+2026-03-30 16:01:04,268 | WARNING | Skipping 'post 6' — missing urdu.jpg or eng.jpg
+2026-03-30 16:01:04,268 | INFO | Detected 0 valid post(s): []
+2026-03-30 16:01:04,268 | ERROR | No valid posts found. Aborting.
