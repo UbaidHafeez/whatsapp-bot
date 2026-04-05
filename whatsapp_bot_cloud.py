@@ -9,6 +9,10 @@ import requests
 import json
 import logging
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables from .env file (for local testing)
+load_dotenv()
 
 # Configuration
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -40,25 +44,32 @@ def scan_posts():
     if not os.path.exists(POSTS_FOLDER):
         log.error(f"❌ Posts folder not found!")
         return []
-    
+
     posts = []
     for folder in sorted(os.listdir(POSTS_FOLDER)):
         if folder.startswith("sent_"):
             continue
-        
+
         folder_path = os.path.join(POSTS_FOLDER, folder)
         if not os.path.isdir(folder_path):
             continue
+
+        # Find all image files in the folder (support .jpg and .jpeg)
+        image_extensions = ['.jpg', '.jpeg']
+        images = []
         
-        urdu_img = os.path.join(folder_path, "urdu.jpg")
-        eng_img = os.path.join(folder_path, "eng.jpg")
+        for file in sorted(os.listdir(folder_path)):
+            file_lower = file.lower()
+            if any(file_lower.endswith(ext) for ext in image_extensions):
+                images.append(file)
         
-        if os.path.exists(urdu_img) and os.path.exists(eng_img):
+        # Need at least 2 images for a valid post
+        if len(images) >= 2:
             posts.append(folder)
-            log.info(f"✅ Found post: {folder}")
+            log.info(f"✅ Found post: {folder} ({len(images)} images)")
         else:
-            log.warning(f"⚠️ Skipping '{folder}' — missing images")
-    
+            log.warning(f"⚠️ Skipping '{folder}' — need at least 2 images, found {len(images)}")
+
     log.info(f"📦 Detected {len(posts)} post(s): {posts}")
     return posts
 
@@ -102,40 +113,53 @@ def image_to_base64(image_path):
 
 def send_image(group_name, image_path, caption=""):
     """Send image via UltraMsg API"""
-    
+
     log.info(f"📤 Sending to: {group_name}")
     log.info(f"🖼️ Image: {os.path.basename(image_path)}")
-    
+
     # Check file exists
     if not os.path.exists(image_path):
         log.error(f"❌ Image file not found: {image_path}")
         return False
-    
+
     # Check file size
     file_size = os.path.getsize(image_path) / (1024 * 1024)  # MB
     log.info(f"📊 Image size: {file_size:.2f} MB")
-    
+
     if file_size > 5:
         log.error(f"❌ Image too large! Must be under 5MB")
         return False
-    
+
     # Convert to base64
     image_base64 = image_to_base64(image_path)
     log.info(f"📝 Encoded image ({len(image_base64)} chars)")
-    
-    # API URL
+
+    # API URL - Use phone number for direct message, or group ID for groups
+    # For personal number: use number without country code
+    # For groups: use group ID @g.us format
     api_url = f"https://api.ultramsg.com/{INSTANCE_ID}/messages/image"
-    
+
+    # Determine if this is a group or personal message
+    if "@g.us" in group_name:
+        # It's a group ID
+        chat_id = group_name
+        log.info(f"📨 Sending to GROUP: {group_name}")
+    else:
+        # It's a personal number - need to add @c.us for personal chat
+        chat_id = f"{group_name}@c.us"
+        log.info(f"📨 Sending to PERSON: {group_name} → {chat_id}")
+
     # Payload
     payload = {
         "token": API_TOKEN,
-        "to": group_name,
+        "to": chat_id,
         "image": image_base64,
         "caption": caption
     }
-    
+
     log.info(f"🔗 API URL: {api_url}")
-    log.info(f"📮 Recipient: {group_name}")
+    log.info(f"📮 Chat ID: {chat_id}")
+    log.info(f"🔑 Token: {API_TOKEN[:10]}...")
     
     try:
         # Send request
@@ -204,48 +228,55 @@ def main():
         return
     
     log.info(f"📮 Selected post: {post_name}")
-    
+
     # Prepare paths
     post_folder = os.path.join(POSTS_FOLDER, post_name)
-    urdu_img = os.path.join(post_folder, "urdu.jpg")
-    eng_img = os.path.join(post_folder, "eng.jpg")
     
-    log.info(f"🖼️ Urdu image: {urdu_img}")
-    log.info(f"🖼️ English image: {eng_img}")
+    # Find all image files in the folder (support .jpg and .jpeg)
+    image_extensions = ['.jpg', '.jpeg']
+    image_files = []
     
-    # Check files exist
-    if not os.path.exists(urdu_img):
-        log.error(f"❌ Urdu image not found: {urdu_img}")
+    for file in sorted(os.listdir(post_folder)):
+        file_lower = file.lower()
+        if any(file_lower.endswith(ext) for ext in image_extensions):
+            image_files.append(file)
+    
+    if len(image_files) < 2:
+        log.error(f"❌ Not enough images found in {post_name}")
         return
-    if not os.path.exists(eng_img):
-        log.error(f"❌ English image not found: {eng_img}")
-        return
     
+    # Use first two images
+    img1_path = os.path.join(post_folder, image_files[0])
+    img2_path = os.path.join(post_folder, image_files[1])
+    
+    log.info(f"🖼️ First image: {image_files[0]}")
+    log.info(f"🖼️ Second image: {image_files[1]}")
+
     # Send to each group
     successful = []
     failed = []
-    
+
     for group in groups:
         log.info("-" * 60)
         log.info(f"📱 Sending to: {group}")
         log.info("-" * 60)
-        
-        # Send Urdu
-        success_urdu = send_image(group, urdu_img, caption="")
-        
-        if success_urdu:
-            # Send English
-            success_eng = send_image(group, eng_img, caption="")
-            
-            if success_eng:
+
+        # Send First Image
+        success_img1 = send_image(group, img1_path, caption="")
+
+        if success_img1:
+            # Send Second Image
+            success_img2 = send_image(group, img2_path, caption="")
+
+            if success_img2:
                 successful.append(group)
                 log.info(f"✅ Both images sent to {group}")
             else:
                 failed.append(group)
-                log.warning(f"⚠️ English image failed for {group}")
+                log.warning(f"⚠️ Second image failed for {group}")
         else:
             failed.append(group)
-            log.warning(f"⚠️ Urdu image failed for {group}")
+            log.warning(f"⚠️ First image failed for {group}")
     
     # Summary
     log.info("=" * 60)

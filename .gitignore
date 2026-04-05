@@ -49,6 +49,11 @@ attach_*.html
 send_*.png
 send_*.html
 
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.*.local
+
 # Keep these
 !requirements.txt
 !bot_log.txt
