@@ -2,8 +2,8 @@ name: WhatsApp Islamic Post Sender
 
 on:
   schedule:
-    # Run daily at 7:00 PM PKT (14:00 UTC)
-    - cron: '0 14 * * *'
+    # Run daily at 8:00 PM PKT (Rawalpindi) = 15:00 UTC
+    - cron: '0 15 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
